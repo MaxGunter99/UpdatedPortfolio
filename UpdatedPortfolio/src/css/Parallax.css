@@ -1,0 +1,12 @@
+/* PARALLAX */
+
+.HomeParallax {
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    margin: 0 auto;
+    z-index: 3;
+
+}

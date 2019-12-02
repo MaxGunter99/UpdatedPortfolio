@@ -1,0 +1,105 @@
+/* LANGUAGES */
+
+.Container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+.Languages {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    align-items: baseline;
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur( 3px );
+    text-align: center;
+
+}
+
+.Topics {
+
+    color: white;
+
+}
+
+.Skills {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.39);
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+.LanguageContainer {
+
+    display: flex;
+    max-width: 150px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.LanguageImage {
+
+    height: 40px;
+    padding: 5px;
+    max-width: 50px;
+
+}
+
+.LanguageText {
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+
+}
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px)
+  and (orientation: portrait) {
+
+    .Languages {
+
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+    .Container {
+
+        padding: 10px;
+
+    }
+
+    .Topics {
+
+        font-size: 20px;
+
+    }
+
+    .LanguageContainer {
+
+        padding: 5px;
+
+    }
+
+    .LanguageContainer img {
+
+        width: 20%;
+        height: auto;
+
+    }
+
+}

@@ -1,0 +1,91 @@
+/* PERSONALIZE */
+
+.PersonalizeParallax {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+
+}
+
+.Personalize {
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.Personalize div {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Personalize h1 {
+
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 45px;
+
+}
+
+img.PersonalizeIMG {
+
+    height: auto;
+    width: 75%;
+
+}
+
+.Personalize p {
+
+    text-indent: 20px;
+    padding: 15px;
+
+}
+
+/* MOBILE MEDIA QUERIE */
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 900px)
+  and (orientation: portrait) {
+
+    .Personalize {
+
+        margin-top: 0px;
+        width: 100%;
+
+    }
+
+    .Personalize h1 {
+
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+    }
+
+    img.PersonalizeIMG {
+
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .Personalize p {
+
+        margin-top: 50px;
+        width: 80%;
+        
+    }
+
+}
