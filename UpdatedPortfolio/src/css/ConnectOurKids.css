@@ -33,6 +33,7 @@ img.ConnectOurKids {
     width: 90%;
     margin: 0 auto;
     text-indent: 25px;
+    width: 800px;
 
 }
 
@@ -44,9 +45,9 @@ img.ConnectOurKids {
 
 img.ConnectOurKidsScreenshot {
 
-    height: 480px;
+    height: auto;
     max-width: 225px;
-    width: auto;
+    width: 300px;
 
 }
 

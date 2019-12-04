@@ -1,0 +1,80 @@
+/* MUSIC */
+
+div.MusicParallax {
+    z-index: 2;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: contain;
+}
+
+img.MusicParallaxImage {
+
+    max-height: 70vh;
+    width: auto;
+
+}
+
+.MusicImage {
+    width: 100%;
+    height: auto;
+
+}
+
+.Cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 70vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.MusicInfo {
+
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+}
+
+/* .MusicParallaxImage {
+    max-width: 30%;
+    height: auto;
+} */
+
+.MusicInfo div {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+}
+
+.MusicInfo button {
+
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 150%;
+    background-color: white;
+    border: none;
+    transition: .3s;
+    outline: none;
+
+}
+
+.MusicInfo button:hover {
+
+    transition: .3s;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+
+}

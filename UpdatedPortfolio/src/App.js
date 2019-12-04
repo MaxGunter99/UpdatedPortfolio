@@ -6,7 +6,7 @@ import WOW from 'wowjs';
 // COMPONENTS
 import MainPage from './Components/Home';
 import ResumePage from './Components/Resume';
-import Interests from './Components/Interests';
+import Interests from './Components/Interests/Interests';
 
 // IMAGES
 import LinkedIn from './Images/linkedin.jpg';
@@ -98,9 +98,9 @@ export default class App extends React.Component {
           <h1 className="Name" >Michael Gunter</h1>
           <div className="Title">
 
-            <NavLink exact to='/'>Home</NavLink>
+            <NavLink exact to='/'>Skills</NavLink>
+            <NavLink exact to='/Interests'>Interests</NavLink>
             <NavLink exact to='/Resume'>Resume</NavLink>
-            {/* <NavLink exact to='/Interests'>Ineterests</NavLink> */}
             <p className={`${this.state.title}`} onClick={toggleDropdown}>Contact Me</p>
 
           </div>

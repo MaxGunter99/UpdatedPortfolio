@@ -1,0 +1,63 @@
+/* PHOTOGRAPHY */
+
+div.PhotographyParallax {
+
+    /* background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'); */
+    background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 80%;
+    margin-top: 20px;
+    z-index: 10;
+
+}
+
+.PhotographyBase {
+
+    background-image: url( 'http://p.favim.com/orig/2018/09/07/pixels-pixel-art-gif-8bit-Favim.com-6291845.gif' );
+    background-position: center center;
+
+}
+
+.Pictures {
+
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Pictures .Container {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.Container.one {
+    justify-content: flex-start;
+}
+
+.Container.two {
+    justify-content: center;
+}
+
+.Container.three {
+    justify-content: flex-end;
+}
+
+.Image {
+
+    max-height: 70vh;
+    width: auto;
+
+}
+
+.Info {
+    backdrop-filter: blur( 3px );
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}

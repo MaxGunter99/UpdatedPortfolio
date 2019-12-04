@@ -5,7 +5,7 @@ import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
 import WOW from 'wowjs';
 
 // AVATAR IMAGE
-import Avatar from '../Images/avatar.jpg';
+import Avatar from '../Images/avatar2.jpg';
 
 // LANGUAGE IMAGES
 import Javascript from '../Images/js.png';
@@ -17,11 +17,9 @@ import html from '../Images/HTML.svg';
 import Django from '../Images/djangologo.png';
 import Jest from '../Images/jest.png'
 
-// PROJECT IMAGES
-import Home from '../Images/connectourkidshome.jpg';
-import ConnectOurKidsLogo from '../Images/connectkids.jpg';
-import PeopleSearch from '../Images/connectkidspeoplesearch.jpg';
-import Personalize from '../Images/personalize.jpeg';
+// PROJECTS
+import Personalize from './Projects/Personalize';
+import ConnectOurKids from './Projects/ConnectOurKids';
 
 // CSS IMPORTS
 import "../css/App.css";
@@ -181,50 +179,9 @@ export default class MainPage extends React.Component {
 
                     </ParallaxLayer>
 
-                    {/* CONNECT OUR KIDS */}
-                    <ParallaxLayer className='ConnectKidsParallax' speed={.5} offset={1.25}>
+                    <ConnectOurKids/>
 
-                        <div className='ConnectKidsDiv'>
-
-                            <img className='ConnectOurKids' src={ConnectOurKidsLogo} alt='ConOurKids' />
-
-                            <div className = 'ConnectOurKidsContent'>
-
-                                <div className = 'ConnectOurKidsImages'>
-                                    <img src={Home} className='ConnectOurKidsScreenshot' alt='ConOurKidsScreenshot' />
-                                    <img src={PeopleSearch} className='ConnectOurKidsScreenshot' alt='ConOurKidsScreenshot' />
-                                </div>
-
-                                <div className = 'ConnectOurKidsInfo'>
-
-                                    <p><strong>React Native Application</strong></p>
-                                    <p class="Card">Empowering child welfare professionals with a tool that easily searches extended family members that may be able to care for the child in place of putting them into the foster care system, connecting to family members immediately.</p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </ParallaxLayer>
-
-                    {/* PERSONALIZE */}
-                    <ParallaxLayer className='PersonalizeParallax' speed={.5} offset={2}>
-
-                        <div className='Personalize'>
-
-                            <h1>Personalize</h1>
-
-                            <div>
-
-                                <img src={Personalize} alt='PersonalizeIMG' className = 'PersonalizeIMG' />
-                                <p>Personalize is a side project I've been woring on for a little bit, its purpose is to keep track of jobs you apply to and give you statistics back. It can tell you how many jobs you have applied to within the past day / month / year. It has an activity graph so you can see what days you were most active. I will eventually implement text message reminders for meet up groups and interviews</p>
-
-                            </div>
-
-                        </div>
-
-                    </ParallaxLayer>
+                    <Personalize/>
 
                     {/* MOUNTAIN IMAGE */}
                     <ParallaxLayer className='BottomImage' speed={-.01} offset={1.8} style={{ width: '100%', margin: '0 auto' }} />
