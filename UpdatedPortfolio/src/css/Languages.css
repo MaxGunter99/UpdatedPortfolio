@@ -67,8 +67,7 @@
 
 @media only screen 
   and (min-width: 375px) 
-  and (max-width: 812px)
-  and (orientation: portrait) {
+  and (max-width: 812px) {
 
     .Languages {
 
@@ -100,6 +99,23 @@
         width: 20%;
         height: auto;
 
+    }
+
+    .SkillsContainer {
+        width: 100%;
+        height: fit-content
+        
+    }
+
+    .CoolPicture {
+
+        background-image: none;
+        /* background-color: red; */
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 500px;
+    
     }
 
 }

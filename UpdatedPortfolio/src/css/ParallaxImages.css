@@ -31,3 +31,25 @@
     background-position: center center;
 
 }
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) {
+
+    .CoolPictureContainer {
+        height: 70vh;
+    }
+
+    .CoolPicture {
+
+        /* background-image: none; */
+        /* background-color: red; */
+        /* background-attachment: fixed; */
+        background-size: auto;
+        background-repeat: repeat;
+        background-position: center top;
+        height: 85vh;
+    
+    }
+
+}

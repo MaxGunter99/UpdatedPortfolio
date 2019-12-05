@@ -13,7 +13,7 @@ export default class ConnectOurKids extends React.Component {
 
         return (
 
-            <ParallaxLayer className='ConnectKidsParallax' speed={.5} offset={1.25}>
+            <ParallaxLayer className='ConnectKidsParallax' speed={.5} offset={1}>
 
                 <div className='ConnectKidsDiv'>
 

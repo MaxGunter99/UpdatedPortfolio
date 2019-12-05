@@ -46,7 +46,7 @@ export default class MainPage extends React.Component {
 
             <div class="Header">
 
-                <Parallax className='HomeParallax' ref={ref => (this.parallax = ref)} pages={3.1}>
+                <Parallax className='HomeParallax' ref={ref => (this.parallax = ref)} pages={3}>
 
                     {/* BIO */}
                     <ParallaxLayer speed={1} offset={.04} style={{ width: '100%', margin: '0 auto', height: '800px' }}>
@@ -60,20 +60,21 @@ export default class MainPage extends React.Component {
 
                     </ParallaxLayer>
 
-                    <ParallaxLayer speed={1.3} offset={.45} style={{ width: '100%', margin: '0 auto', height: '800px' }}>
+                    <ParallaxLayer speed={1.3} offset={.5} style={{ width: '100%', margin: '0 auto', height: '800px' }}>
 
                         <div className='BioContent'>I am a software engineer at Lambda School, an online training academy focused on Web Development. My career goal is to participate with a team that focuses on intricate problem solving in order to help a wide variety of people. My main focus is front end, because one of my strengths is creating efficient ways to improve user interface.</div>
 
                     </ParallaxLayer>
 
                     {/* LANGUAGES */}
-                    <ParallaxLayer speed={.5} offset={.7} style={{ width: '100%', margin: '0 auto' }}>
+                    <ParallaxLayer className='CoolPictureContainer' speed={1} offset={.8} style={{ 
+                        width: '100%', margin: '0 auto' }}>
 
                         <div className='CoolPicture' />
 
                     </ParallaxLayer>
 
-                    <ParallaxLayer speed={.8} offset={.999} style={{ width: '100%', margin: '0 auto' }}>
+                    <ParallaxLayer speed={1.2} offset={.999} className = 'SkillsContainer' style={{ width: '100%', margin: '0 auto' }}>
 
                         <h1 className='Skills'>Skills</h1>
 
@@ -184,8 +185,8 @@ export default class MainPage extends React.Component {
                     <Personalize/>
 
                     {/* MOUNTAIN IMAGE */}
-                    <ParallaxLayer className='BottomImage' speed={-.01} offset={1.8} style={{ width: '100%', margin: '0 auto' }} />
-                    <ParallaxLayer className='Cloud' speed={.2} offset={1.9} style={{ width: '100%', margin: '0 auto' }} />
+                    <ParallaxLayer className='BottomImage' speed={-.01} offset={1.6} style={{ width: '100%', margin: '0 auto' }} />
+                    <ParallaxLayer className='Cloud' speed={.2} offset={1.6} style={{ width: '100%', margin: '0 auto' }} />
 
                 </Parallax>
 

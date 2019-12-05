@@ -23,6 +23,10 @@
     margin-top: 10px;
     width: 60%;
     margin: 0 auto;
+    /* background-color: rgba(240, 240, 240, 0.548); */
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(201, 201, 201); */
 
 }
 
