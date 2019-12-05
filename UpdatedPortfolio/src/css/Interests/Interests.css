@@ -16,6 +16,7 @@
     margin-top: -20px;
     display: flex;
     /* background-color: rgb(236, 236, 236); */
+    scroll-behavior: smooth;
 
 }
 
@@ -77,6 +78,18 @@
 
 }
 
+.LobsterTopic {
+    /* position: absolute; */
+    /* z-index: 20; */
+    font-family: 'Lobster';
+    width: fit-content;
+    padding: 0px 5px;
+    text-decoration: underline red;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
 .Back {
 
     width: 25%;
@@ -88,8 +101,8 @@
 
 .Back button {
 
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
     margin-top: 30px;
     font-size: 20px;
@@ -98,6 +111,7 @@
     border: none;
     transition: .3s;
     outline: none;
+    border: 1px solid black;
 
 }
 

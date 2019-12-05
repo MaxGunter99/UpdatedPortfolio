@@ -1,0 +1,89 @@
+.SciFiParallax {
+    
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+}
+
+.BaseLayer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BaseLayer img {
+    height: 70vh;
+    width: auto;
+}
+
+.Cloud {
+    /* background-image: url('https://scotlandstreetpress.com/wp-content/uploads/2017/03/clouds-png-13378.png'); */
+    background-size: 90%;
+    background-position: center;
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.SciFiInfo {
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ImageContainer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.ImageContainer img {
+    width: 50%;
+    height: auto
+}
+
+.Information {
+
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Information p {
+    text-indent: 20px;
+}
+
+button {
+
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 150%;
+    background-color: white;
+    border: none;
+    transition: .3s;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+button:hover {
+
+    transition: .3s;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+
+}

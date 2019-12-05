@@ -32,11 +32,34 @@ export default class PhotographyParallax extends React.Component {
                         <div className='Pictures'>
 
                             <ParallaxLayer
-                                speed={.5}
+                                speed={-1}
+                                offset={0.03}>
+
+                                <div className='LobsterTopic'>
+                                    <h1>Photography</h1>
+                                </div>
+
+                            </ParallaxLayer>
+
+                            <div className = 'Illustrations'>
+
+                                <ParallaxLayer
+                                    speed={1.3}
+                                    className='Illustration2'
+                                    style = {{ 'maxHeight': '50vh' , 'maxWidth': '30%' , 'backgroundSize': '80%' }}
+                                    offset={.999}>
+                                </ParallaxLayer>
+
+                            </div>
+
+                            <ParallaxLayer
+                                speed={.3}
                                 offset={.999}>
 
                                 <div className='Info'>
-                                    <p>Photography is one of my favorite ways to feel free. I love taking pictures of the city.</p>
+                                    <p>I appreciate when people are aware of the beauty around them. Graphic Illustration is also one of my favorite ways to capture reality.</p>
+                                    <p>“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.”</p>
+                                    <strong>— Aaron Siskind</strong>
                                 </div>
 
                                 <div className='Back'>
@@ -46,7 +69,7 @@ export default class PhotographyParallax extends React.Component {
                             </ParallaxLayer>
 
                             <ParallaxLayer
-                                speed={1}
+                                speed={2}
                                 offset={0}>
 
                                 <div className='Container one'>

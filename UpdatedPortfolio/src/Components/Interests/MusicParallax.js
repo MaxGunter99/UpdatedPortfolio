@@ -32,34 +32,34 @@ export default class MusicParallax extends React.Component {
                         <div className='Pictures'>
 
                             <ParallaxLayer
-                                speed={-.3}
+                                speed = {0}
                                 className='Music'
-                                offset={0}>
+                                offset={0.3}>
 
                                 <img src={Music} alt='Music' className='MusicImage' />
 
                             </ParallaxLayer>
 
                             <ParallaxLayer
-                                speed={.5}
-                                className='MusicInfo'
-                                offset={0.999}>
+                                speed={-1}
+                                offset={0.03}>
 
-                                <div>
-                                    <p>Music has always been one of my favorite things. In my spare time you can find me listening 20's music and going to concerts. I sometimes make music when I dont have a lot to do.</p>
+                                <div className='LobsterTopic'>
+                                    <h1>Music</h1>
                                 </div>
-
-                                <button onClick={() => this.MusicParallax.scrollTo(0)}>⬆︎</button>
 
                             </ParallaxLayer>
 
                             <ParallaxLayer
-                                speed={1.5}
-                                offset={0}>
+                                speed={.3}
+                                className='MusicInfo'
+                                offset={0.999}>
 
-                                <div className='Container two'>
-                                    <img src={Music1} alt = 'Music1' className='MusicParallaxImage' />
+                                <div>
+                                    <p>Music has always been one of my favorite ways to get inspired. In my spare time you can find me listening to all types of music and going to concerts. I occasionally make music using GarageBand and a PO 20 Arcade synthesizer. I really enjoy listening to indie electronic and 1920's jazz.</p>
                                 </div>
+
+                                <button onClick={() => this.MusicParallax.scrollTo(0)}>⬆︎</button>
 
                             </ParallaxLayer>
 
@@ -79,6 +79,16 @@ export default class MusicParallax extends React.Component {
 
                                 <div className='Container three'>
                                     <img src={Music3} alt = 'Music3' className='MusicParallaxImage' />
+                                </div>
+
+                            </ParallaxLayer>
+
+                            <ParallaxLayer
+                                speed={1.5}
+                                offset={0}>
+
+                                <div className='Container two'>
+                                    <img src={Music1} alt = 'Music1' className='MusicParallaxImage' />
                                 </div>
 
                             </ParallaxLayer>

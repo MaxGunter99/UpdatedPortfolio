@@ -52,6 +52,10 @@ div.MusicParallax {
 
 }
 
+.MusicInfo p {
+    text-indent: 10px;
+}
+
 .MusicInfo div {
 
     margin: 0 auto;
@@ -59,7 +63,7 @@ div.MusicParallax {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.315);
+    background-color: rgb(255, 255, 255);
     backdrop-filter: blur(3px);
     padding: 10px;
 

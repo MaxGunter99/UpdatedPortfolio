@@ -2,8 +2,8 @@
 
 div.PhotographyParallax {
 
-    /* background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'); */
-    background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
+    background-image: url('https://images.pexels.com/photos/310435/pexels-photo-310435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    /* background-image: url('https://images.unsplash.com/photo-1495854245347-f3936493f799?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
     background-attachment: fixed;
     background-size: 100%;
     width: 80%;
@@ -56,8 +56,27 @@ div.PhotographyParallax {
 
 .Info {
     backdrop-filter: blur( 3px );
-    background-color: rgba(255, 255, 255, 0.404);
-    width: 80%;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
     margin: 0 auto;
     padding: 20px;
+}
+
+.Info p {
+    text-indent: 10px;
+}
+
+.Illustrations {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Illustration{
+    background-image: url('https://i.pinimg.com/564x/bd/0f/35/bd0f35cad69a32abcda249d34a3fd14e.jpg');
+}
+
+.Illustration2{
+    background-image: url('https://i.pinimg.com/564x/bd/0f/35/bd0f35cad69a32abcda249d34a3fd14e.jpg');
 }

@@ -6,10 +6,10 @@
     /* background-image: url('https://images.unsplash.com/photo-1517842187497-033b8b8cea1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     background-image: url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'); */
     background-image: url('https://images.unsplash.com/photo-1457419655743-2e0acc6b5122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 830px;
+    height: 100%;
 
 }
 
@@ -27,6 +27,7 @@
 
     background-image: url('http://www.pngmart.com/files/1/Clouds-Transparent-Background.png');
     background-size: 50%;
+    opacity: 0.5;
     background-position: center center;
 
 }

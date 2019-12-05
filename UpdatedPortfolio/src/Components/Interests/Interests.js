@@ -53,14 +53,14 @@ export default class Interests extends React.Component {
 
                     <h4 onClick={() => this.setActive( 'Photography' )} className = { this.state.active === 'Photography' ? 'Active' : null }>Photography</h4>
                     <h4 onClick={() => this.setActive( 'Music' )} className = { this.state.active === 'Music' ? 'Active' : null }>Music</h4>
-                    {/* <h4 onClick={() => this.setActive( 'SciFi' )} className = { this.state.active === 'SciFi' ? 'Active' : null }>Sci-Fi</h4> */}
+                    <h4 onClick={() => this.setActive( 'SciFi' )} className = { this.state.active === 'SciFi' ? 'Active' : null }>Sci-Fi</h4>
 
                 </div>
 
                 <Parallax 
                     className = 'Parallax' 
                     ref={ ref => ( this.Parallax = ref ) } 
-                    pages={2.2} 
+                    pages={3.4} 
                     horizontal = {true}
                     style = {{ 'height': '70vh' , 'width': '100%' }}>
 
@@ -70,7 +70,7 @@ export default class Interests extends React.Component {
 
                             <PhotographyParallax/>
                             <MusicParallax/>
-                            {/* <SciFiParallax/> */}
+                            <SciFiParallax/>
 
                         </div>
 
