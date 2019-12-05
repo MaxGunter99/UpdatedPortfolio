@@ -79,21 +79,21 @@ export default class PhotographyParallax extends React.Component {
                             </ParallaxLayer>
 
                             <ParallaxLayer
-                                speed={1.5}
-                                offset={0}>
-
-                                <div className='Container two'>
-                                    <img src={City2} alt = 'City2' className='Image' />
-                                </div>
-
-                            </ParallaxLayer>
-
-                            <ParallaxLayer
                                 speed={2}
                                 offset={0}>
 
                                 <div className='Container three'>
                                     <img src={City3} alt = 'City3' className='Image' />
+                                </div>
+
+                            </ParallaxLayer>
+
+                            <ParallaxLayer
+                                speed={1.5}
+                                offset={0}>
+
+                                <div className='Container two'>
+                                    <img src={City2} alt = 'City2' className='Image' />
                                 </div>
 
                             </ParallaxLayer>

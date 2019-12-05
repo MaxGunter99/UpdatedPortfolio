@@ -24,9 +24,22 @@
     width: 10%;
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.37);
+}
+
+.Selection h4 {
+
+    display: flex;
+    justify-content: center;
+    min-width: 15%;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: .1s;
 }
 
 .Selection h4.Active {
@@ -35,6 +48,9 @@
 
 .Selection h4:hover {
     cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: .1s;
 }
 
 .Topic {
@@ -72,7 +88,7 @@
 
 .Topic button:hover {
 
-    padding: 10px;
+    height: 50px;
     transition: .1s;
     cursor: pointer;
 

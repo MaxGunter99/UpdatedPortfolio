@@ -8,6 +8,7 @@ div.PhotographyParallax {
     background-size: 100%;
     width: 80%;
     margin-top: 20px;
+    background-repeat: no-repeat;
     z-index: 10;
 
 }
@@ -79,4 +80,63 @@ div.PhotographyParallax {
 
 .Illustration2{
     background-image: url('https://i.pinimg.com/564x/bd/0f/35/bd0f35cad69a32abcda249d34a3fd14e.jpg');
+}
+
+@media only screen 
+  and (min-width: 1000px )
+  and (max-width: 2000px) {
+
+    /* .Container.one {
+        z-index: 10;
+    }
+
+    .Container.two {
+        z-index: 20;
+        position: absolute;
+    }
+
+    .Container.three {
+        z-index: 10;
+    } */
+
+}
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 1130px) {
+
+    .Container.one {
+        display: none;
+    }
+
+    .Container.two {
+        width: 100%;
+        background-color: white;
+    }
+
+    .Container.three {
+        display: none;
+    }
+
+    div.PhotographyParallax {
+        margin-top: 10px;
+        background-size: auto;
+        background-position: center center;
+        height: 85vh;
+    }
+
+    .Info {
+
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: -20px;
+
+    }
+
+    .Illustration2 {
+        display: none;
+    }
+
 }

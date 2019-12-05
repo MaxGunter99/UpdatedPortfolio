@@ -42,11 +42,7 @@
 
     .CoolPicture {
 
-        /* background-image: none; */
-        /* background-color: red; */
-        /* background-attachment: fixed; */
         background-size: auto;
-        background-repeat: repeat;
         background-position: center top;
         height: 85vh;
     

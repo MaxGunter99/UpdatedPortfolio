@@ -92,3 +92,20 @@ div.MusicParallax {
     background-color: black;
 
 }
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 1130px) {
+
+    .Music {
+        display: flex;
+        justify-content: center;
+    }
+
+    .MusicImage {
+        height: 100%;
+        width: auto;
+        margin-top: 80px;
+    }
+
+}

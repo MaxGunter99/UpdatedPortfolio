@@ -87,3 +87,54 @@ button:hover {
     background-color: black;
 
 }
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 1130px) {
+
+    .Cloud {
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .Information {
+        margin-top: 70px;
+        width: 70%;
+    }
+
+}
+
+@media only screen
+    and ( min-width: 500px )
+    and ( max-width: 800px ) {
+
+    .ImageContainer {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-top: 70px;
+    }
+        
+    .ImageContainer img {
+        width: 75%;
+        height: auto
+    }
+
+}
+
+@media only screen
+    and ( min-width: 300px )
+    and ( max-width: 500px ) {
+
+    .ImageContainer {
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+        margin-top: 70px;
+    }
+    
+    .ImageContainer img {
+        width: 100%;
+        height: auto
+    }
+}
