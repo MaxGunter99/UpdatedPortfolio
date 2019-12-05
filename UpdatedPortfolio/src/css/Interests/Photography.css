@@ -2,7 +2,7 @@
 
 div.PhotographyParallax {
 
-    background-image: url('https://images.pexels.com/photos/310435/pexels-photo-310435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    /* background-image: url('https://images.pexels.com/photos/310435/pexels-photo-310435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
     /* background-image: url('https://images.unsplash.com/photo-1495854245347-f3936493f799?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
     background-attachment: fixed;
     background-size: 100%;
@@ -10,13 +10,6 @@ div.PhotographyParallax {
     margin-top: 20px;
     background-repeat: no-repeat;
     z-index: 10;
-
-}
-
-.PhotographyBase {
-
-    background-image: url( 'http://p.favim.com/orig/2018/09/07/pixels-pixel-art-gif-8bit-Favim.com-6291845.gif' );
-    background-position: center center;
 
 }
 

@@ -7,6 +7,7 @@ import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import City1 from '../../Images/City1.jpg';
 import City2 from '../../Images/City2.jpg';
 import City3 from '../../Images/City3.jpg';
+import Photography from '../../Images/Photography1.jpeg'
 
 // CSS
 import '../../css/Interests/Interests.css'
@@ -30,6 +31,15 @@ export default class PhotographyParallax extends React.Component {
                         style={{ 'height': '70vh', 'width': '100%' }}>
 
                         <div className='Pictures'>
+
+                            <ParallaxLayer
+                                speed = {0}
+                                className='Music'
+                                offset={0.3}>
+
+                                <img src={Photography} alt='Music' className='MusicImage' />
+
+                            </ParallaxLayer>
 
                             <ParallaxLayer
                                 speed={-1}
