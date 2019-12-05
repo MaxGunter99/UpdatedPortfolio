@@ -14,11 +14,7 @@ class ResumePage extends Component {
 
         return (
 
-            <div className='Resume'>
-
-                <img src={Resume} stye = {{ width: '100%' , height: '70vh' }} className='Res' alt='Res' />
-
-            </div>
+            <img src={Resume} className='Res' alt='Res' />
 
         )
     }

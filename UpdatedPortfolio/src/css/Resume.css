@@ -1,19 +1,13 @@
 /* RESUME */
 
-.Resume {
+.Res {
 
-    width: 100%;
     display: flex;
     justify-content: center;
-
-};
-
-.Resume img {
-
     margin: 0 auto;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 80%;
 
 }
 
@@ -22,22 +16,14 @@
   and (max-width: 812px)
   and (orientation: portrait) {
 
-    .Resume {
-
-        width: 100%;
-        padding: 0px;
-        border-bottom: 2px solid black;
-
-    }
-
-    .Resume img {
+    .Res {
 
         display: flex;
         justify-content: center;
         margin: 0 auto;
         height: auto;
         margin-top: 20px;
-        width: 100%;
+        max-width: 100%;
 
     }
 
