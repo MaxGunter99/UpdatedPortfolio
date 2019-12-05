@@ -22,8 +22,8 @@
 
 img.ConnectOurKids {
 
-    height: auto;
-    width: 20%;
+    height: 20%;
+    width: auto;
 
 }
 
@@ -46,8 +46,7 @@ img.ConnectOurKids {
 img.ConnectOurKidsScreenshot {
 
     height: auto;
-    max-width: 225px;
-    width: 300px;
+    width: 50%;
 
 }
 
