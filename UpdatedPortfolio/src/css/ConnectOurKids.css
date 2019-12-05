@@ -45,7 +45,7 @@ img.ConnectOurKids {
 
 img.ConnectOurKidsScreenshot {
 
-    height: auto;
+    height: 100%;
     width: 50%;
 
 }
@@ -113,8 +113,8 @@ img.ConnectOurKidsScreenshot {
 
     img.ConnectOurKidsScreenshot {
 
-        width: 175px;
-        height: auto;
+        height: 75%;
+        width: 45%;
 
     }
 
