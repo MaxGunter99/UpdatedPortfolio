@@ -81,6 +81,7 @@ div.MusicParallax {
     border: none;
     transition: .3s;
     outline: none;
+    text-align: center;
 
 }
 
@@ -92,6 +93,31 @@ div.MusicParallax {
     background-color: black;
 
 }
+
+.MusicInfo button {
+
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 150%;
+    background-color: white;
+    border: none;
+    transition: .3s;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+.MusicInfo button:hover {
+
+    transition: .3s;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+
+}
+
+
 
 @media only screen 
   and (min-width: 375px) 
@@ -106,6 +132,10 @@ div.MusicParallax {
         height: 100%;
         width: auto;
         margin-top: 80px;
+    }
+
+    .MusicInfo {
+        margin-top: -20px;
     }
 
 }

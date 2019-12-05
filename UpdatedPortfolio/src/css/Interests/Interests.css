@@ -97,7 +97,7 @@
 .LobsterTopic {
     /* position: absolute; */
     /* z-index: 20; */
-    font-family: 'Lobster';
+    font-family: 'Lobster', 'cursive';
     width: fit-content;
     padding: 0px 5px;
     text-decoration: underline red;
@@ -112,6 +112,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    margin-top: 30px;
 
 }
 
@@ -119,8 +120,6 @@
 
     width: 40px;
     height: 40px;
-    margin: 0 auto;
-    margin-top: 30px;
     font-size: 20px;
     border-radius: 150%;
     background-color: white;
@@ -128,6 +127,7 @@
     transition: .3s;
     outline: none;
     border: 1px solid black;
+    text-align: center;
 
 }
 
