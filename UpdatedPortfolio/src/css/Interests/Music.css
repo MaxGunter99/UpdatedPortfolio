@@ -59,29 +59,13 @@ div.MusicParallax {
 .MusicInfo div {
 
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
     backdrop-filter: blur(3px);
     padding: 10px;
-
-}
-
-.MusicInfo button {
-
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 20px;
-    border-radius: 150%;
-    background-color: white;
-    border: none;
-    transition: .3s;
-    outline: none;
-    text-align: center;
 
 }
 
@@ -96,15 +80,16 @@ div.MusicParallax {
 
 .MusicInfo button {
 
-    width: 40px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
-    border-radius: 150%;
+    border-radius: 10px;
     background-color: white;
     border: none;
     transition: .3s;
     outline: none;
     border: 1px solid black;
+    margin-top: 20px;
 
 }
 
