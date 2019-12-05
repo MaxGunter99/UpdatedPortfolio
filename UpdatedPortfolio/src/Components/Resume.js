@@ -14,13 +14,9 @@ class ResumePage extends Component {
 
         return (
 
-            <div classname='Header'>
+            <div className='Resume'>
 
-                <div className='Resume'>
-
-                    <img src={Resume} width="850" height="1100" className='Res' alt='Res' />
-
-                </div>
+                <img src={Resume} width="850" height="1100" className='Res' alt='Res' />
 
             </div>
 

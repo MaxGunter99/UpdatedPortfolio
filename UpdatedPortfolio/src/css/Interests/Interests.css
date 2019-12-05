@@ -118,10 +118,10 @@
 
 .Back button {
 
-    width: 40px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
-    border-radius: 150%;
+    border-radius: 10px;
     background-color: white;
     border: none;
     transition: .3s;
