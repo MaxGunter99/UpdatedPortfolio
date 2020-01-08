@@ -1,7 +1,7 @@
 
 // DEP.
 import React from 'react';
-import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
+// import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
 import WOW from 'wowjs';
 
 // AVATAR IMAGE
@@ -27,7 +27,7 @@ import '../css/ContactMe.css';
 import '../css/Bio.css';
 import '../css/Languages.css';
 import '../css/Parallax.css';
-import '../css/ParallaxImages.css';
+// import '../css/ParallaxImages.css';
 import '../css/ConnectOurKids.css';
 import '../css/Personalize.css';
 import '../css/Resume.css';
@@ -44,12 +44,12 @@ export default class MainPage extends React.Component {
 
         return (
 
-            <div class="Header">
+            <div class="Header" className = "wow fadeIn" data-wow-duration=".3s">
 
-                <Parallax className='HomeParallax' ref={ref => (this.parallax = ref)} pages={3}>
+                <div>
 
                     {/* BIO */}
-                    <ParallaxLayer speed={1} offset={.04} style={{ width: '100%', margin: '0 auto', height: '800px' }}>
+                    <div>
 
                         <div className='Bio'>
 
@@ -58,23 +58,17 @@ export default class MainPage extends React.Component {
 
                         </div>
 
-                    </ParallaxLayer>
+                    </div>
 
-                    <ParallaxLayer speed={1.3} offset={.5} style={{ width: '100%', margin: '0 auto', height: '800px' }}>
+                    <div>
 
                         <div className='BioContent'>I am a software engineer at Lambda School, an online training academy focused on Web Development. My career goal is to participate with a team that focuses on intricate problem solving in order to help a wide variety of people. My main focus is front end, because one of my strengths is creating efficient ways to improve user interface.</div>
 
-                    </ParallaxLayer>
+                    </div>
 
                     {/* LANGUAGES */}
-                    <ParallaxLayer className='CoolPictureContainer' speed={1} offset={.8} style={{ 
-                        width: '100%', margin: '0 auto' }}>
 
-                        <div className='CoolPicture' />
-
-                    </ParallaxLayer>
-
-                    <ParallaxLayer speed={1.2} offset={.999} className = 'SkillsContainer' style={{ width: '100%', margin: '0 auto' }}>
+                    <div className = 'SkillsContainer'>
 
                         <h1 className='Skills'>Skills</h1>
 
@@ -178,17 +172,18 @@ export default class MainPage extends React.Component {
 
                         </div>
 
-                    </ParallaxLayer>
+                    </div>
 
-                    <ConnectOurKids/>
+                    <div className = 'BottomSection'>
+                        <ConnectOurKids/>
+                        <Personalize/>
+                    </div>
 
-                    <Personalize/>
+                    {/* <footer>
+                        <div className = 'Mountain' />
+                    </footer> */}
 
-                    {/* MOUNTAIN IMAGE */}
-                    <ParallaxLayer className='BottomImage' speed={-.01} offset={1.6} style={{ width: '100%', margin: '0 auto' }} />
-                    <ParallaxLayer className='Cloud' speed={.2} offset={1.6} style={{ width: '100%', margin: '0 auto' }} />
-
-                </Parallax>
+                </div>
 
             </div>
         );

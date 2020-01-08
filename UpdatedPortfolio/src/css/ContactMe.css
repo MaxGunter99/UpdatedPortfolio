@@ -2,16 +2,12 @@
 
 .Show {
 
-    transition: .5s;
-    width: auto;
-    min-width: 70px;
     font-size: 18px;
 
 }
 
 .Hide {
 
-    min-width: 70px;
     font-size: 18px;
 
 }
@@ -20,35 +16,31 @@
 
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
-    transition: .5s;
     background-color: rgba(0, 0, 0, 0.562);
     align-items: center;
     border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur( 3px );
     z-index: 10;
     position: relative;
+    height: 50px;
+    transition: .5s;
 
 }
 
 .Dropdown.Active {
 
-    transition: .5s;
-    margin-bottom: -58px;
+    margin-top: 0px;
+    margin-bottom: 0px
 
 }
 
-div.Dropdown.NotActive img {
+.NotActive {
 
-    transition: .5s;
-    margin-top: -56px;
-
-}
-
-.Dropdown.Active img {
-
-    transition: .5s;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 25px;
 
 }
 
@@ -74,38 +66,52 @@ div.Dropdown.NotActive img {
 
 @media only screen 
   and (min-width: 375px) 
-  and (max-width: 900px)
-  and (orientation: portrait) { 
+  and (max-width: 790px) { 
+
+    .Show {
+
+        font-size: 12px;
+        width: 70px;
+
+    }
+
+    .Hide {
+
+        font-size: 12px;
+        width: 70px;
+
+    }
 
     .Dropdown {
 
         width: 80%;
+        transition: .5s;
 
+    }
+
+    .Dropdown img {
+
+        height: auto;
+        width: 30px;
+        padding: 3px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 10px;
+    
     }
 
     .Dropdown.NotActive {
 
-        transition: .5s;
         margin-bottom: 0px;
+        margin-top: -70px;
 
     }
 
-    .Title p {
+    .Dropdown.Active {
 
-        font-size: 12px;
-
-    }
-
-    .Title p.Show {
-
-        font-size: 12px;
-        
-    }
-
-    .Title p.Hide {
-
-        font-size: 12px;
-
+        margin-top: 0px;
+        margin-bottom: -70px
+    
     }
 
 }

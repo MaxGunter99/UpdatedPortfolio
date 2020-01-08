@@ -1,39 +1,30 @@
 /* CONNECT OUT KIDS */
 
-.ConnectKidsParallax {
-
-    width: 100%; 
-    margin: 0 auto; 
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    background-color: rgb(255, 255, 255);
-
-}
-
 .ConnectKidsDiv {
 
-    background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    width: 90%;
-    height: 600px;
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
 
 }
 
 img.ConnectOurKids {
 
-    height: 20%;
-    width: auto;
+    height: 40%;
+    width: 40%;
 
 }
 
 .ConnectOurKidsContent {
 
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-indent: 25px;
-    width: 800px;
+    /* flex-direction: column; */
 
 }
 
@@ -41,6 +32,8 @@ img.ConnectOurKids {
 
     display: flex;
     margin: 10px;
+    width: 50%;
+
 }
 
 img.ConnectOurKidsScreenshot {
@@ -50,40 +43,35 @@ img.ConnectOurKidsScreenshot {
 
 }
 
+.ConnectOurKidsInfo {
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-indent: 25px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    font-size: 1rem;
+
+}
+
 /* IPHONE MEDIA QUERIE */
 
 @media only screen 
   and (min-width: 375px) 
-  and (max-width: 900px)
-  and (orientation: portrait) {
-
-    .ConnectKidsParallax {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ConnectKidsDiv {
-
-        height: 500px;
-        margin-top: -150px;
-
-    }
+  and (max-width: 900px) {
 
     img.ConnectOurKids {
 
         height: auto;
         width: 100%;
-        margin-top: -10px;
     
     }
 
     .ConnectOurKids {
 
         width: 100%;
-        max-width: 560px;
         height: auto;
         display: flex;
         justify-content: center;
@@ -108,17 +96,18 @@ img.ConnectOurKidsScreenshot {
         margin: 0px;
         flex-direction: row;
         justify-content: space-evenly;
+        width: 100%;
 
     }
 
     img.ConnectOurKidsScreenshot {
 
-        height: 75%;
-        width: 45%;
+        height: auto;
+        max-width: 50%;
 
     }
 
-    .ConnectOurKindsInfo {
+    .ConnectOurKidsInfo {
 
         display: flex;
         flex-direction: column;

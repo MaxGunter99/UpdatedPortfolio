@@ -4,7 +4,7 @@ import React from 'react';
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 
 // IMAGES
-import SciFi1 from '../../Images/SciFi1.jpg'
+// import SciFi1 from '../../Images/SciFi1.jpg'
 import SciFi2 from '../../Images/SciFi2.jpeg'
 import SciFi3 from '../../Images/SciFi3.png'
 import SciFi4 from '../../Images/SciFi4.jpg';

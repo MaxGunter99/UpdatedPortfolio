@@ -5,6 +5,7 @@ import { Parallax } from 'react-spring/renderprops-addons';
 import MusicParallax from './MusicParallax';
 import PhotographyParallax from './PhotographyParallax';
 import SciFiParallax from './SciFiParallax';
+import WOW from 'wowjs';
 
 // CSS
 import '../../css/Interests/Interests.css'
@@ -16,6 +17,12 @@ export default class Interests extends React.Component {
         active: ''
 
     }
+
+    componentDidMount() {
+
+        new WOW.WOW().init();
+
+    };
 
     setActive = category => {
         if ( category === 'Music') {
@@ -42,13 +49,6 @@ export default class Interests extends React.Component {
 
             <div className = 'Body'>
 
-                {/* <ul>
-                    <li>Sci-fi</li>
-                    <li>Garageband / music making</li>
-                    <li>Photography</li>
-                    <li>Reading</li>
-                </ul> */}
-
                 <div className = 'Selection'>
 
                     <h4 onClick={() => this.setActive( 'Photography' )} className = { this.state.active === 'Photography' ? 'Active' : null }>Photography</h4>
@@ -58,9 +58,9 @@ export default class Interests extends React.Component {
                 </div>
 
                 <Parallax 
-                    className = 'Parallax' 
+                    className = 'Parallax'
                     ref={ ref => ( this.Parallax = ref ) } 
-                    pages={3.4} 
+                    pages={3.4}
                     horizontal = {true}
                     style = {{ 'height': '70vh' , 'width': '100%' }}>
 

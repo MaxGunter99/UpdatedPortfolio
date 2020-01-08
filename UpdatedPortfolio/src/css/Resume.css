@@ -1,12 +1,12 @@
 /* RESUME */
 
-.Res {
+img.Res {
 
     display: flex;
     justify-content: center;
     margin: 0 auto;
     height: auto;
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 80%;
 
 }
@@ -16,13 +16,13 @@
   and (max-width: 812px)
   and (orientation: portrait) {
 
-    .Res {
+    img.Res {
 
         display: flex;
         justify-content: center;
         margin: 0 auto;
         height: auto;
-        margin-top: 20px;
+        margin-top: 70px;
         max-width: 100%;
 
     }

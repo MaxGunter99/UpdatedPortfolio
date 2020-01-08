@@ -139,3 +139,13 @@
     background-color: black;
 
 }
+
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 900px) {
+
+    .Body {
+        margin-top: 60px;
+    }
+
+}

@@ -1,16 +1,5 @@
 /* PERSONALIZE */
 
-.PersonalizeParallax {
-
-    height: 500px;
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    background-color: white;
-    margin-top: -50px;
-
-}
-
 .Personalize {
 
     display: flex;
@@ -18,6 +7,10 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
 
 }
 
@@ -36,14 +29,14 @@
     font-family: 'Lobster', cursive;
     text-decoration: underline;
     text-decoration-color: red;
-    font-size: 45px;
+    font-size: 50px;
 
 }
 
 img.PersonalizeIMG {
 
     height: auto;
-    width: 75%;
+    max-width: 75%;
 
 }
 
@@ -51,7 +44,6 @@ img.PersonalizeIMG {
 
     text-indent: 20px;
     padding: 15px;
-    width: 80%;
 
 }
 
@@ -59,12 +51,11 @@ img.PersonalizeIMG {
 
 @media only screen 
   and (min-width: 375px) 
-  and (max-width: 900px)
-  and (orientation: portrait) {
+  and (max-width: 900px) {
 
     .Personalize {
 
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -78,7 +69,7 @@ img.PersonalizeIMG {
     img.PersonalizeIMG {
 
         height: auto;
-        width: 100%;
+        max-width: 100%;
         
     }
 

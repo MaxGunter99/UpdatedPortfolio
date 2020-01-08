@@ -89,6 +89,15 @@ button:hover {
 
 }
 
+.Cloud {
+
+    background-image: url('http://www.pngmart.com/files/1/Clouds-Transparent-Background.png');
+    background-size: 100%;
+    opacity: 0.5;
+    background-position: center center;
+
+}
+
 @media only screen 
   and (min-width: 375px) 
   and (max-width: 1130px) {

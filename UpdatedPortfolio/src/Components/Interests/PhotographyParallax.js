@@ -12,10 +12,18 @@ import Photography from '../../Images/Photography1.jpeg'
 // CSS
 import '../../css/Interests/Interests.css'
 import '../../css/Interests/Photography.css';
+import WOW from 'wowjs';
 
 export default class PhotographyParallax extends React.Component {
 
+    componentDidMount() {
+
+        new WOW.WOW().init();
+
+    };
+
     render() {
+
         return (
 
             <ParallaxLayer
