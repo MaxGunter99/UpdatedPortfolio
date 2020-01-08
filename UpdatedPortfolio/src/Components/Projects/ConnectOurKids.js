@@ -21,7 +21,9 @@ export default class ConnectOurKids extends React.Component {
 
             <div className='ConnectKidsDiv'>
 
-                <img className='ConnectOurKids' src={ConnectOurKidsLogo} alt='ConOurKids' />
+                <div className = "ImgContainer">
+                    <img className='ConnectOurKids' src={ConnectOurKidsLogo} alt='ConOurKids' />
+                </div>
 
                 <div className='ConnectOurKidsContent'>
 

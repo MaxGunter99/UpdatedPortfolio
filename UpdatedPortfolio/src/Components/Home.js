@@ -31,6 +31,8 @@ import '../css/Parallax.css';
 import '../css/ConnectOurKids.css';
 import '../css/Personalize.css';
 import '../css/Resume.css';
+import '../css/Footer.css'
+import Footer from './Footer';
 
 export default class MainPage extends React.Component {
 
@@ -179,11 +181,9 @@ export default class MainPage extends React.Component {
                         <Personalize/>
                     </div>
 
-                    {/* <footer>
-                        <div className = 'Mountain' />
-                    </footer> */}
-
                 </div>
+
+                <Footer/>
 
             </div>
         );

@@ -7,9 +7,10 @@ import WOW from 'wowjs';
 import MainPage from './Components/Home';
 import ResumePage from './Components/Resume';
 import Interests from './Components/Interests/Interests';
+import Footer from './Components/Footer';
 
 // IMAGES
-import LinkedIn from './Images/linkedin.jpg';
+import LinkedIn from './Images/LinkedIn.png';
 import Email from './Images/email.png';
 import GitHub from './Images/github.png';
 

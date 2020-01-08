@@ -5,9 +5,17 @@
     margin: 0 auto;
     width: 80%;
     border: 2px solid rgba(0, 0, 0, 0.178);
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
     background-color: white;
+
+}
+
+.ImgContainer {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -15,6 +23,7 @@ img.ConnectOurKids {
 
     height: 40%;
     width: 40%;
+    display: flex;
 
 }
 
@@ -22,24 +31,29 @@ img.ConnectOurKids {
 
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
     margin: 0 auto;
     text-indent: 25px;
-    /* flex-direction: column; */
+    height: fit-content;
 
 }
 
 .ConnectOurKidsImages {
 
     display: flex;
-    margin: 10px;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 100%;
 
 }
 
 img.ConnectOurKidsScreenshot {
 
-    /* height: 1; */
-    width: 50%;
+    height: 700px;
+    width: auto;
+    border: 4px solid rgb(145, 145, 145);
+    border-radius: 30px;
+    padding: 5px;
 
 }
 
@@ -47,11 +61,11 @@ img.ConnectOurKidsScreenshot {
 
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     text-indent: 25px;
     /* justify-content: space-evenly; */
-    align-items: center;
+    /* align-items: center; */
     font-size: 1rem;
 
 }
@@ -59,6 +73,7 @@ img.ConnectOurKidsScreenshot {
 .GitHub {
 
     width: auto;
+    margin-bottom: 20px;
     margin-top: 20px;
     color: white;
     background-color: black;

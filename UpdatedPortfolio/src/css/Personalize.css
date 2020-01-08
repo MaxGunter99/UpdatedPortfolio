@@ -8,7 +8,7 @@
     margin: 0 auto;
     margin-top: 50px;
     border: 2px solid rgba(0, 0, 0, 0.178);
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
     background-color: white;
 
@@ -30,6 +30,21 @@
     text-decoration: underline;
     text-decoration-color: red;
     font-size: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.PersonalizeInfo {
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 25px;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    font-size: 1rem;
 
 }
 

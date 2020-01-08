@@ -17,21 +17,9 @@
 
 }
 
-footer {
-
-    height: 50px;
-    width: 100%;
-    /* background-color: rgb(255, 0, 0); */
-    margin: 0 auto;
-    border-top: 2px solid black;
-
-}
-
 .BottomSection {
 
-    background-color: rgb(230, 230, 230);
-    background-attachment: fixed;
-    width: 100%;
+    background-color: rgb(41, 39, 39);
     padding-top: 40px;
     padding-bottom: 40px;
 

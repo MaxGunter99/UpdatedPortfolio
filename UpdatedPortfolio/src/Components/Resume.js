@@ -8,6 +8,7 @@ import Resume from '../Images/resume.jpeg'
 import '../css/App.css'
 import '../css/Resume.css'
 import WOW from 'wowjs';
+import Footer from './Footer';
 
 class ResumePage extends Component {
 
@@ -21,11 +22,16 @@ class ResumePage extends Component {
 
         return (
 
-            <div className = "wow fadeIn" data-wow-duration=".3s">
+            <>
 
-                <img src={Resume} className='Res' alt='Res' />
+                <div className = "wow fadeIn" data-wow-duration=".3s">
 
-            </div>
+                    <img src={Resume} className='Res' alt='Res' />
+
+                </div>
+
+                <Footer/>
+            </>
 
         )
     }

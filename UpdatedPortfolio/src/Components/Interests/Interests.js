@@ -9,6 +9,7 @@ import WOW from 'wowjs';
 
 // CSS
 import '../../css/Interests/Interests.css'
+import Footer from '../Footer';
 
 export default class Interests extends React.Component {
 
@@ -47,38 +48,44 @@ export default class Interests extends React.Component {
 
         return (
 
-            <div className = 'Body'>
+            <>
 
-                <div className = 'Selection'>
+                <div className = 'Body'>
 
-                    <h4 onClick={() => this.setActive( 'Photography' )} className = { this.state.active === 'Photography' ? 'Active' : null }>Photography</h4>
-                    <h4 onClick={() => this.setActive( 'Music' )} className = { this.state.active === 'Music' ? 'Active' : null }>Music</h4>
-                    <h4 onClick={() => this.setActive( 'SciFi' )} className = { this.state.active === 'SciFi' ? 'Active' : null }>Sci-Fi</h4>
+                    <div className = 'Selection'>
 
-                </div>
-
-                <Parallax 
-                    className = 'Parallax'
-                    ref={ ref => ( this.Parallax = ref ) } 
-                    pages={3.4}
-                    horizontal = {true}
-                    style = {{ 'height': '70vh' , 'width': '100%' }}>
-
-                    <div className = 'InterestsParallax'>
-
-                        <div className='Interest'>
-
-                            <PhotographyParallax/>
-                            <MusicParallax/>
-                            <SciFiParallax/>
-
-                        </div>
+                        <h4 onClick={() => this.setActive( 'Photography' )} className = { this.state.active === 'Photography' ? 'Active' : null }>Photography</h4>
+                        <h4 onClick={() => this.setActive( 'Music' )} className = { this.state.active === 'Music' ? 'Active' : null }>Music</h4>
+                        <h4 onClick={() => this.setActive( 'SciFi' )} className = { this.state.active === 'SciFi' ? 'Active' : null }>Sci-Fi</h4>
 
                     </div>
 
-                </Parallax>
+                    <Parallax 
+                        className = 'Parallax'
+                        ref={ ref => ( this.Parallax = ref ) } 
+                        pages={3.4}
+                        horizontal = {true}
+                        style = {{ 'height': '70vh' , 'width': '100%' }}>
 
-            </div>
+                        <div className = 'InterestsParallax'>
+
+                            <div className='Interest'>
+
+                                <PhotographyParallax/>
+                                <MusicParallax/>
+                                <SciFiParallax/>
+
+                            </div>
+
+                        </div>
+
+                    </Parallax>
+
+                </div>
+
+                <Footer/>
+
+            </>
 
         )
     }
