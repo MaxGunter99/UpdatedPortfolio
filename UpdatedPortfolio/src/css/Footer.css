@@ -95,6 +95,12 @@ footer {
 
     }
 
+    .Pages div {
+
+        width: 90%;
+
+    }
+
     .FooterTopic {
 
         width: 80%;
@@ -102,7 +108,15 @@ footer {
     }
 
     .CMFooter {
+
         border-top: none;
+
+    }
+
+    .FooterImages {
+
+        width: 80%;
+
     }
 
 }

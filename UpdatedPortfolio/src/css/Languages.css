@@ -124,8 +124,8 @@
     .SkillsContainer {
 
         /* height: fit-content; */
-        background-size: 190%;
-        background-position: center center;
+        background-size: 220%;
+        background-position: center top;
         background-attachment: initial;
         
     }
