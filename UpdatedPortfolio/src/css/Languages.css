@@ -89,7 +89,7 @@
 
     .Languages {
 
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
 
     }
@@ -122,21 +122,12 @@
     }
 
     .SkillsContainer {
+
         /* height: fit-content; */
-        background-size: 150vh;
-        background-position: center;
-        
-    }
-
-    .CoolPicture {
-
-        background-image: none;
-        /* background-color: red; */
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-size: 190%;
         background-position: center center;
-        /* height: 500px; */
-    
+        background-attachment: initial;
+        
     }
 
 }

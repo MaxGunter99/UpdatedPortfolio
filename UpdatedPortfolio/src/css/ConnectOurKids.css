@@ -93,10 +93,16 @@ img.ConnectOurKidsScreenshot {
   and (min-width: 375px) 
   and (max-width: 900px) {
 
+    .ConnectKidsDiv {
+
+        width: 90%;
+
+    }
+
     img.ConnectOurKids {
 
-        height: auto;
-        width: 100%;
+        height: 100px;
+        width: auto;
     
     }
 
@@ -127,14 +133,15 @@ img.ConnectOurKidsScreenshot {
         margin: 0px;
         flex-direction: row;
         justify-content: space-evenly;
-        width: 100%;
+        width: auto;
+        height: 100%;
 
     }
 
     img.ConnectOurKidsScreenshot {
 
-        height: auto;
-        max-width: 50%;
+        height: 400px;
+        width: auto;
 
     }
 
