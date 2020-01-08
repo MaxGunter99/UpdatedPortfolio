@@ -6,6 +6,12 @@ import '../../css/Personalize.css'
 
 export default class Personalize extends React.Component {
 
+    toGitHub = () => {
+
+        window.location = 'https://github.com/MaxGunter99/Personalize'
+
+    }
+
     render() {
 
         return (
@@ -24,6 +30,8 @@ export default class Personalize extends React.Component {
                         <li>Visual activity graph based on how many jobs the a user applies to per week.</li>
                         <li>Node backend used to store all the users data.</li>
                     </ul>
+
+                    <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
 
                 </div>
 

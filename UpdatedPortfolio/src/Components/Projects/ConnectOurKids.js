@@ -9,6 +9,12 @@ import '../../css/ConnectOurKids.css'
 
 export default class ConnectOurKids extends React.Component {
 
+    toGitHub = () => {
+
+        window.location = 'https://github.com/labs13-connect-kids/mobile'
+
+    }
+
     render() {
 
         return (
@@ -26,8 +32,17 @@ export default class ConnectOurKids extends React.Component {
 
                     <div className='ConnectOurKidsInfo'>
 
-                        <p><strong>React Native Application</strong></p>
                         <p class="Card">Empowering child welfare professionals with a tool that easily searches extended family members that may be able to care for the child in place of putting them into the foster care system, connecting to family members immediately.</p>
+
+                        <ul>
+                            <li>Built in React Native</li>
+                            <li>4 week project</li>
+                            <li>5 developers on our team</li>
+                            <li>Participated in daily standups</li>
+                            <li>Stayed in contact with stakeholder</li>
+                        </ul>
+
+                        <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
 
                     </div>
 
