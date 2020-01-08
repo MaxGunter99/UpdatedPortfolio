@@ -50,7 +50,7 @@ export default class Interests extends React.Component {
 
             <>
 
-                <div className = 'Body' style = {{ marginBottom: '-80px' }}>
+                <div className = 'Body' style = {{ marginBottom: '-85px' }}>
 
                     <div className = 'Selection'>
 
