@@ -61,7 +61,8 @@
 
     display: flex;
     width: 150px;
-    margin: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     align-items: center;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.425);
@@ -112,7 +113,7 @@
     .LanguageContainer {
 
         padding: 5px;
-        width: auto;
+        width: 100%;
         height: fit-content;
 
     }
