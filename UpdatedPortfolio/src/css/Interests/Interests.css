@@ -141,11 +141,11 @@
 }
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 900px) {
 
     .Body {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
 }

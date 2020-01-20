@@ -99,7 +99,7 @@ button:hover {
 }
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 1130px) {
 
     .Cloud {
@@ -137,10 +137,20 @@ button:hover {
     and ( max-width: 500px ) {
 
     .ImageContainer {
-        display: flex;
-        flex-direction: column;
-        width: 22%;
+        display: none;
+    }
+
+    .Information {
         margin-top: 70px;
+        width: 100%;
+    }
+
+    .Information p {
+        text-indent: 0px;
+    }
+
+    ul {
+        margin: 0px;
     }
     
     .ImageContainer img {

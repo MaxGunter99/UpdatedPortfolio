@@ -3,7 +3,7 @@ import React from 'react';
 // Images
 import Music from '../../Images/Music.jpg';
 import Music1 from '../../Images/Music1.jpg';
-import Music2 from '../../Images/Music2.jpeg';
+import Music2 from '../../Images/Music2.jpg';
 import Music3 from '../../Images/Music3.jpg'
 
 // COMPONENTS

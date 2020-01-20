@@ -57,7 +57,7 @@
 /* MOBILE MEDIA QUERIE */
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 1000px) {
 
     .AvatarImg {

@@ -64,9 +64,24 @@ img.PersonalizeIMG {
 }
 
 /* MOBILE MEDIA QUERIE */
+@media only screen 
+  and (min-width: 900px)
+  and ( max-width: 5000px ) {
+
+    .Personalize {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .Personalize div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 900px) {
 
     .Personalize {

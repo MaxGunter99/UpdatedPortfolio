@@ -95,7 +95,7 @@ div.PhotographyParallax {
 }
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 1130px) {
 
     .Container.one {
@@ -124,7 +124,7 @@ div.PhotographyParallax {
         width: 80%;
         margin: 0 auto;
         padding: 20px;
-        margin-top: -20px;
+        margin-top: -70px;
 
     }
 

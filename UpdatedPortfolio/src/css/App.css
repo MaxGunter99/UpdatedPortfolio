@@ -2,6 +2,8 @@
 
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
 
 }
 
@@ -19,8 +21,21 @@
 
 .BottomSection {
 
-    background-color: rgb(41, 39, 39);
+    /* background-color: rgb(216, 216, 216); */
     padding-top: 40px;
     padding-bottom: 40px;
 
+}
+
+.BottomSection h1 {
+    text-align: center;
+}
+
+@media only screen 
+  and (min-width: 300px) 
+  and (max-width: 812px) {
+
+    html {
+        width: 100%;
+    }
 }

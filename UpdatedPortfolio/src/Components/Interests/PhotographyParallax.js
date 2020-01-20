@@ -7,7 +7,7 @@ import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import City1 from '../../Images/City1.jpg';
 import City2 from '../../Images/City2.jpg';
 import City3 from '../../Images/City3.jpg';
-import Photography from '../../Images/Photography1.jpeg'
+import Photography from '../../Images/Photography.jpg'
 
 // CSS
 import '../../css/Interests/Interests.css'

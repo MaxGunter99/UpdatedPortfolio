@@ -59,7 +59,7 @@ a.active {
 /* MOBILE MEDIA QUERIE */
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 812px)
   and (orientation: portrait) {
 
@@ -67,13 +67,16 @@ a.active {
 
         display: flex;
         justify-content: center;
+        flex-direction: column;
         width: 100%;
+        align-items: center;
+        text-align: center;
         margin: 0 auto;
     }
 
     h1.Name {
 
-        padding: 20px;
+        padding: 0px;
         font-size: 20px;
         width: 100%;
 
@@ -84,8 +87,8 @@ a.active {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 400px;
-        height: 70px;
+        width: 100%;
+        /* height: 70px; */
         border-radius: 10px;
 
     }
