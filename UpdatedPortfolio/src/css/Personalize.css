@@ -63,6 +63,10 @@ img.PersonalizeIMG {
 
 }
 
+ul li {
+    text-indent: 0px;
+}
+
 /* MOBILE MEDIA QUERIE */
 @media only screen 
   and (min-width: 900px)

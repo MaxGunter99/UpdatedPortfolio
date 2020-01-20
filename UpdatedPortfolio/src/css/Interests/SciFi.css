@@ -5,6 +5,10 @@
 
 }
 
+.SciFiParallax::-webkit-scrollbar {
+    display: none;
+}
+
 .BaseLayer {
     width: 100%;
     margin: 0 auto;

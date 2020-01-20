@@ -53,15 +53,15 @@ export default class Footer extends Component {
                 <div className='Pages'>
 
                     {/* <h1>M.G.</h1> */}
-                    <h3 className = 'FooterTopic'>Other Pages</h3>
+                    <h3 className = 'FooterTopic'>Pages</h3>
 
                     {window.location.href.split('/')[3] === '' ?
 
                         <div>
                             <NavLink className = 'ALink' exact to='/' style = {{
                                 textDecoration: 'none',
-                                backgroundColor: 'white',
-                                color: 'black'
+                                backgroundColor: 'black',
+                                color: 'white'
                             }}>Skills</NavLink>
                             <NavLink className = 'ALink' exact to='/Interests'>Interests</NavLink>
                             <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
@@ -74,8 +74,8 @@ export default class Footer extends Component {
                             <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
                             <NavLink className = 'ALink' exact to='/Interests' style = {{
                                 textDecoration: 'none',
-                                backgroundColor: 'white',
-                                color: 'black'
+                                backgroundColor: 'black',
+                                color: 'white'
                             }}>Interests</NavLink>
                             <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
                             {/* <p>Contact Me</p> */}
@@ -88,8 +88,8 @@ export default class Footer extends Component {
                             <NavLink className = 'ALink' exact to='/Interests'>Interests</NavLink>
                             <NavLink className = 'ALink' exact to='/Resume' style = {{
                                 textDecoration: 'none',
-                                backgroundColor: 'white',
-                                color: 'black'
+                                backgroundColor: 'black',
+                                color: 'white'
                             }}>Resume</NavLink>
                             {/* <p>Contact Me</p> */}
                         </div>

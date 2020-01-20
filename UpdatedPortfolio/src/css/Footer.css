@@ -1,44 +1,50 @@
 footer {
 
     /* height: 50px; */
+    /* border-top: 2px solid rgb(0, 0, 0); */
     width: 100%;
     margin: 0 auto;
     display: flex; 
     /* flex-direction: column; */
     justify-content: space-evenly;
-    color: white;
-    background-color: rgb(186,42,38);
-    padding-bottom: 20px;
+    /* color: white; */
+    /* background-color: rgb(224, 39, 33); */
 
+}
+
+footer div {
+    min-height: 100px;
+    text-align: center;
 }
 
 .Pages {
 
-    border-top: 2px solid rgb(0, 0, 0);
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-right: 1px solid black
 
 }
 
 .Pages div {
 
     display: flex;
-    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
     justify-content: space-evenly;
 
 }
 
 .ALink {
 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 10px;
-    border: 2px solid white;
-    background-color: black;
+    /* margin: 5px; */
+    /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 5px;
 
 }
@@ -49,15 +55,25 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
     align-items: center;
+    border-left: 1px solid black;
+    margin-top: 0px;
 
 }
 
 .FooterTopic {
 
-    width: 60%;
-    border-bottom: 2px solid white;
+    width: 100%;
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+    margin: 0 auto;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5pxg;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    /* padding: 5px; */
 
 }
 
@@ -66,6 +82,7 @@ footer {
     width: 50%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -91,21 +108,15 @@ footer {
 
     footer {
 
-        flex-direction: column;
+        /* flex-direction: column; */
         margin-top: 32px;
 
     }
 
     .Pages div {
 
-        width: 90%;
+        width: 100%;
 
-    }
-
-    .FooterTopic {
-
-        width: 80%;
-    
     }
 
     .CMFooter {
@@ -114,9 +125,14 @@ footer {
 
     }
 
+    .ALink {
+        width: 50%;
+        margin: 0 auto;
+    }
+
     .FooterImages {
 
-        width: 80%;
+        width: 90%;
 
     }
 

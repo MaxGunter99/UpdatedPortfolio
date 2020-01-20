@@ -29,7 +29,7 @@ export default class ConnectOurKids extends React.Component {
 
                     <div className='ConnectOurKidsImages'>
                         <img src={Home} className='ConnectOurKidsScreenshot' alt='ConOurKidsScreenshot' />
-                        <img src={PeopleSearch} className='ConnectOurKidsScreenshot' alt='ConOurKidsScreenshot' />
+                        <img src={PeopleSearch} className='ConnectOurKidsScreenshot one' alt='ConOurKidsScreenshot' />
                     </div>
 
                     <div className='ConnectOurKidsInfo'>

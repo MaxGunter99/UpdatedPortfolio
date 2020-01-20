@@ -10,3 +10,9 @@
     z-index: 3;
 
 }
+
+.Parallax::-webkit-scrollbar {
+
+    display: none;
+    
+}

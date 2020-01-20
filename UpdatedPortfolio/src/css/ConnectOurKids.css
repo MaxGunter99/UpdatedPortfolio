@@ -88,6 +88,10 @@ img.ConnectOurKidsScreenshot {
 
 }
 
+ul li {
+    text-indent: 0px;
+}
+
 /* MEDIA QUERIE */
 
 @media only screen 
@@ -139,6 +143,10 @@ img.ConnectOurKidsScreenshot {
 
         width: 90%;
 
+    }
+
+    .one {
+        display: none;
     }
 
     img.ConnectOurKids {

@@ -11,6 +11,10 @@ div.MusicParallax {
 
 }
 
+.MusicParallax::-webkit-scrollbar {
+    display: none;
+}
+
 .Pictures {
     width: 100%;
 }
