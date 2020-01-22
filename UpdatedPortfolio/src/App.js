@@ -100,8 +100,8 @@ export default class App extends React.Component {
           <div className="Title">
 
             <NavLink exact to='/'>Skills</NavLink>
-            <NavLink exact to='/Interests'>Interests</NavLink>
             <NavLink exact to='/Resume'>Resume</NavLink>
+            <NavLink exact to='/AboutMe'>About Me</NavLink>
             <p className={`${this.state.title}`} onClick={toggleDropdown}>Contact Me</p>
 
           </div>
@@ -121,7 +121,7 @@ export default class App extends React.Component {
 
         <Route exact path='/' render={() => (<MainPage />)} />
         <Route exact path='/Resume' render={() => (<ResumePage />)} />
-        <Route exact path='/Interests' render={() => (<Interests />)} />
+        <Route exact path='/AboutMe' render={() => (<Interests />)} />
 
       </div>
     );

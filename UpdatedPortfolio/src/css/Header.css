@@ -95,8 +95,12 @@ a.active {
 
     .Title a {
 
-        font-size: 12px;
+        font-size: 13px;
 
+    }
+
+    .Title p {
+        font-size: 13px;
     }
 
 }

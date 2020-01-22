@@ -68,7 +68,7 @@ export default class Footer extends Component {
                             {/* <p>Contact Me</p> */}
                         </div>
 
-                    : window.location.href.split('/')[3] === 'Interests' ?
+                    : window.location.href.split('/')[3] === 'AboutMe' ?
 
                         <div>
                             <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
@@ -85,7 +85,7 @@ export default class Footer extends Component {
 
                         <div>
                             <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/Interests'>Interests</NavLink>
+                            <NavLink className = 'ALink' exact to='/AboutMe'>About Me</NavLink>
                             <NavLink className = 'ALink' exact to='/Resume' style = {{
                                 textDecoration: 'none',
                                 backgroundColor: 'black',
