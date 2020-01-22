@@ -8,12 +8,12 @@ footer {
     /* flex-direction: column; */
     justify-content: space-evenly;
     /* color: white; */
-    /* background-color: rgb(224, 39, 33); */
+    background-color: rgb(184,41,37);
 
 }
 
 footer div {
-    min-height: 100px;
+    min-height: 80px;
     text-align: center;
 }
 
@@ -32,9 +32,10 @@ footer div {
 .Pages div {
 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
-    width: 30%;
+    align-items: center;
+    width: 80%;
     justify-content: space-evenly;
 
 }
@@ -46,6 +47,9 @@ footer div {
     /* margin: 5px; */
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
 
 }
 
@@ -108,7 +112,7 @@ footer div {
 
     footer {
 
-        /* flex-direction: column; */
+        flex-direction: column;
         margin-top: 32px;
 
     }
@@ -126,7 +130,7 @@ footer div {
     }
 
     .ALink {
-        width: 50%;
+        width: 20%;
         margin: 0 auto;
     }
 

@@ -13,10 +13,6 @@ div.PhotographyParallax {
 
 }
 
-.PhotographyParallax::-webkit-scrollbar {
-    display: none;
-}
-
 .Pictures {
 
     width: 500px;
@@ -48,7 +44,7 @@ div.PhotographyParallax {
 .Image {
 
     max-height: 70vh;
-    min-width: 30%;
+    width: auto;
 
 }
 
@@ -128,7 +124,7 @@ div.PhotographyParallax {
         width: 80%;
         margin: 0 auto;
         padding: 20px;
-        margin-top: -70px;
+        margin-top: -60px;
 
     }
 

@@ -11,10 +11,6 @@ div.MusicParallax {
 
 }
 
-.MusicParallax::-webkit-scrollbar {
-    display: none;
-}
-
 .Pictures {
     width: 100%;
 }
@@ -106,8 +102,6 @@ div.MusicParallax {
 
 }
 
-
-
 @media only screen 
   and (min-width: 300px) 
   and (max-width: 1130px) {
@@ -124,7 +118,7 @@ div.MusicParallax {
     }
 
     .MusicInfo {
-        margin-top: -70px;
+        margin-top: -20px;
     }
 
 }
