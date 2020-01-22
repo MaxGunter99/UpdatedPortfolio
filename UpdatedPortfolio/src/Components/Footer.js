@@ -63,7 +63,7 @@ export default class Footer extends Component {
                                 backgroundColor: 'black',
                                 color: 'white'
                             }}>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/Interests'>Interests</NavLink>
+                            <NavLink className = 'ALink' exact to='/AboutMe'>Interests</NavLink>
                             <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
                             {/* <p>Contact Me</p> */}
                         </div>
@@ -72,7 +72,7 @@ export default class Footer extends Component {
 
                         <div>
                             <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/Interests' style = {{
+                            <NavLink className = 'ALink' exact to='/AboutMe' style = {{
                                 textDecoration: 'none',
                                 backgroundColor: 'black',
                                 color: 'white'
