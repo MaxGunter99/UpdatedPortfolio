@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { Suspense } from 'react';
 
 // COMPONENTS
 import { Parallax } from 'react-spring/renderprops-addons';
@@ -48,7 +48,7 @@ export default class Interests extends React.Component {
 
         return (
 
-            <>
+            <Suspense fallback={ <div>Loading...</div> }>
 
                 <div className = 'Body' style = {{ marginBottom: '-85px' }}>
 
@@ -85,7 +85,7 @@ export default class Interests extends React.Component {
 
                 <Footer/>
 
-            </>
+            </Suspense>
 
         )
     }

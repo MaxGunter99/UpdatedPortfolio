@@ -1,13 +1,7 @@
 // DEP
-import React from 'react';
+import React, { Suspense , lazy } from 'react';
 import { NavLink, Route } from 'react-router-dom';
 import WOW from 'wowjs';
-
-// COMPONENTS
-import MainPage from './Components/Home';
-import ResumePage from './Components/Resume';
-import Interests from './Components/Interests/Interests';
-import Footer from './Components/Footer';
 
 // IMAGES
 import LinkedIn from './Images/LinkedIn.png';
@@ -17,6 +11,12 @@ import GitHub from './Images/github.png';
 // CSS
 import "./css/App.css";
 import './css/Header.css';
+
+// COMPONENTS
+import MainPage from './Components/Home';
+import ResumePage from './Components/Resume';
+import Interests from './Components/Interests/Interests';
+import Footer from './Components/Footer';
 
 export default class App extends React.Component {
 
@@ -92,7 +92,6 @@ export default class App extends React.Component {
     });
 
     return (
-
       <div className='MenuContainer'>
 
         <div className='HomeTitle'>
@@ -115,13 +114,15 @@ export default class App extends React.Component {
             <img src={LinkedIn} alt='CImage' className={set} data-wow-duration="1s" onClick={toLinkedIn} />
             <img src={Email} alt='CImage' className={set} data-wow-duration="1s" onClick={toEmail} />
 
-          </div> : null
+          </div> 
+        
+        : null }
 
-        }
-
-        <Route exact path='/' render={() => (<MainPage />)} />
-        <Route exact path='/Resume' render={() => (<ResumePage />)} />
-        <Route exact path='/AboutMe' render={() => (<Interests />)} />
+        <Suspense fallback = { <div><h1>Loading</h1></div> }>
+          <Route exact path='/' component = { MainPage } />
+          <Route exact path='/Resume' component = { ResumePage } />
+          <Route exact path='/AboutMe' component = { Interests } />
+        </Suspense>
 
       </div>
     );
