@@ -2,9 +2,12 @@
 
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    max-width: 1280px;
     margin: 0 auto;
     width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -29,5 +32,13 @@
 }
 
 .BottomSection h1 {
+    text-align: center;
+}
+
+.Loader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }

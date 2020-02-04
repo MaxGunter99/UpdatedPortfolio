@@ -1,6 +1,6 @@
 
 // DEP.
-import React, { Suspense } from 'react';
+import React from 'react';
 // import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
 import WOW from 'wowjs';
 
@@ -46,150 +46,147 @@ export default class MainPage extends React.Component {
 
         return (
 
-            <Suspense fallback = { <div><h1>Loading</h1></div> }>
+            <div class="Header" className="wow fadeIn" data-wow-duration=".3s">
 
-                <div class="Header" className = "wow fadeIn" data-wow-duration=".3s">
+                <div>
 
+                    {/* BIO */}
                     <div>
 
-                        {/* BIO */}
-                        <div>
+                        <div className='Bio'>
 
-                            <div className='Bio'>
+                            <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                            <div className='AvatarBackground' />
 
-                                <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
-                                <div className='AvatarBackground' />
-
-                            </div>
-
-                        </div>
-
-                        <div>
-
-                            <div className='BioContent'>I am a software engineer at Lambda School, an online training academy focused on Web Development. My career goal is to participate with a team that focuses on intricate problem solving in order to help a wide variety of people. My main focus is front end, because one of my strengths is creating efficient ways to improve user interface.</div>
-
-                        </div>
-
-                        {/* LANGUAGES */}
-
-                        <div className = 'SkillsContainer'>
-
-                            <h1 className='Skills'>Skills</h1>
-
-                            <div className='Languages'>
-
-                                {/* FRONT END */}
-                                <div className='Container'>
-
-                                    <h2 className='Topics'>Front-End</h2>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={html} alt='LanguageImage' />
-                                        <p className='LanguageText'>HTML5</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={Javascript} alt='LanguageImage' />
-                                        <p className='LanguageText'>Javascript</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
-                                        <p className='LanguageText'>React</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
-                                        <p className='LanguageText'>React Native</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={Redux} alt='LanguageImage' />
-                                        <p className='LanguageText'>Redux</p>
-
-                                    </div>
-
-                                </div>
-
-                                {/* BACK END */}
-                                <div className='Container'>
-
-                                    <h2 className='Topics'>Back-End</h2>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={NodeImg} alt='LanguageImage' />
-                                        <p className='LanguageText'>Node</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <p className='LanguageText'>Express</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={Jest} alt='LanguageImage' />
-                                        <p className='LanguageText'>Jest</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <p className='LanguageText'>REST APIs</p>
-
-                                    </div>
-
-                                </div>
-
-                                {/* COMPUTER SCIENCE */}
-                                <div className='Container'>
-
-                                    <h2 className='Topics'>CS</h2>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={Python} alt='LanguageImage' />
-                                        <p className='LanguageText'>Python3</p>
-
-                                    </div>
-
-                                    <div className='LanguageContainer'>
-
-                                        <img className='LanguageImage' src={Django} alt='LanguageImage' />
-                                        <p className='LanguageText'>Django</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div className = 'BottomSection'>
-                            <h1>Projects</h1>
-                            <ConnectOurKids/>
-                            <Personalize/>
                         </div>
 
                     </div>
 
-                    <Footer/>
+                    <div>
+
+                        <div className='BioContent'>I am a software engineer at Lambda School, an online training academy focused on Web Development. My career goal is to participate with a team that focuses on intricate problem solving in order to help a wide variety of people. My main focus is front end, because one of my strengths is creating efficient ways to improve user interface.</div>
+
+                    </div>
+
+                    {/* LANGUAGES */}
+
+                    <div className='SkillsContainer'>
+
+                        <h1 className='Skills'>Skills</h1>
+
+                        <div className='Languages'>
+
+                            {/* FRONT END */}
+                            <div className='Container'>
+
+                                <h2 className='Topics'>Front-End</h2>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={html} alt='LanguageImage' />
+                                    <p className='LanguageText'>HTML5</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={Javascript} alt='LanguageImage' />
+                                    <p className='LanguageText'>Javascript</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
+                                    <p className='LanguageText'>React</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
+                                    <p className='LanguageText'>React Native</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={Redux} alt='LanguageImage' />
+                                    <p className='LanguageText'>Redux</p>
+
+                                </div>
+
+                            </div>
+
+                            {/* BACK END */}
+                            <div className='Container'>
+
+                                <h2 className='Topics'>Back-End</h2>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={NodeImg} alt='LanguageImage' />
+                                    <p className='LanguageText'>Node</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <p className='LanguageText'>Express</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={Jest} alt='LanguageImage' />
+                                    <p className='LanguageText'>Jest</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <p className='LanguageText'>REST APIs</p>
+
+                                </div>
+
+                            </div>
+
+                            {/* COMPUTER SCIENCE */}
+                            <div className='Container'>
+
+                                <h2 className='Topics'>CS</h2>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={Python} alt='LanguageImage' />
+                                    <p className='LanguageText'>Python3</p>
+
+                                </div>
+
+                                <div className='LanguageContainer'>
+
+                                    <img className='LanguageImage' src={Django} alt='LanguageImage' />
+                                    <p className='LanguageText'>Django</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className='BottomSection'>
+                        <h1>Projects</h1>
+                        <ConnectOurKids />
+                        <Personalize />
+                    </div>
 
                 </div>
-            </Suspense>
+
+                <Footer />
+
+            </div>
         );
     }
 }

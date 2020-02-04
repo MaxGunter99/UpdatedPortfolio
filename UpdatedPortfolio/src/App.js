@@ -1,5 +1,5 @@
 // DEP
-import React, { Suspense , lazy } from 'react';
+import React from 'react';
 import { NavLink, Route } from 'react-router-dom';
 import WOW from 'wowjs';
 
@@ -11,6 +11,7 @@ import GitHub from './Images/github.png';
 // CSS
 import "./css/App.css";
 import './css/Header.css';
+import './css/Footer.css'
 
 // COMPONENTS
 import MainPage from './Components/Home';
@@ -18,10 +19,14 @@ import ResumePage from './Components/Resume';
 import Interests from './Components/Interests/Interests';
 import Footer from './Components/Footer';
 
+// const MainPage = React.lazy( () => import('./Components/Home') );
+// const Interests = React.lazy( () => import('./Components/Interests/Interests') );
+// const ResumePage = React.lazy( () => import('./Components/Resume') );
+
 export default class App extends React.Component {
 
-  constructor( props ) {
-    super( props );
+  constructor(props) {
+    super(props);
 
     this.state = {
 
@@ -84,7 +89,7 @@ export default class App extends React.Component {
 
     };
 
-    window.addEventListener( 'load', ( event ) => {
+    window.addEventListener('load', (event) => {
 
       event.preventDefault()
       setTimeout(() => this.setState({ loading: false }), 3000);
@@ -92,39 +97,42 @@ export default class App extends React.Component {
     });
 
     return (
-      <div className='MenuContainer'>
 
-        <div className='HomeTitle'>
-          <h1 className="Name" >Michael Gunter</h1>
-          <div className="Title">
+        <div className='MenuContainer'>
 
-            <NavLink exact to='/'>Skills</NavLink>
-            <NavLink exact to='/Resume'>Resume</NavLink>
-            <NavLink exact to='/AboutMe'>About Me</NavLink>
-            <p className={`${this.state.title}`} onClick={toggleDropdown}>Contact Me</p>
+          <div className='HomeTitle'>
+            <h1 className="Name" >Michael Gunter</h1>
+
+            <div className="Title">
+              
+              <NavLink exact to='/'>Skills</NavLink>
+              <NavLink exact to='/Resume'>Resume</NavLink>
+              <NavLink exact to='/AboutMe'>About Me</NavLink>
+              <p className={`${this.state.title}`} onClick={toggleDropdown}>Contact Me</p>
+
+            </div>
 
           </div>
+
+
+          {this.state.dropdown !== false ?
+
+            <div className={`Dropdown ${this.state.dropdown}`}>
+
+              <img src={GitHub} alt='CImage' className={set} data-wow-duration="1s" onClick={toGitHub} />
+              <img src={LinkedIn} alt='CImage' className={set} data-wow-duration="1s" onClick={toLinkedIn} />
+              <img src={Email} alt='CImage' className={set} data-wow-duration="1s" onClick={toEmail} />
+
+            </div>
+
+          : null}
+
+          <Route exact path='/' component={MainPage} />
+          <Route exact path='/Resume' component={ResumePage} />
+          <Route exact path='/AboutMe' component={Interests} />
+
         </div>
 
-        {this.state.dropdown !== false ?
-
-          <div className={`Dropdown ${this.state.dropdown}`}>
-
-            <img src={GitHub} alt='CImage' className={set} data-wow-duration="1s" onClick={toGitHub} />
-            <img src={LinkedIn} alt='CImage' className={set} data-wow-duration="1s" onClick={toLinkedIn} />
-            <img src={Email} alt='CImage' className={set} data-wow-duration="1s" onClick={toEmail} />
-
-          </div> 
-        
-        : null }
-
-        <Suspense fallback = { <div><h1>Loading</h1></div> }>
-          <Route exact path='/' component = { MainPage } />
-          <Route exact path='/Resume' component = { ResumePage } />
-          <Route exact path='/AboutMe' component = { Interests } />
-        </Suspense>
-
-      </div>
     );
 
   }

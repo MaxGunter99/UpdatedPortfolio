@@ -7,7 +7,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.3.1",
     "react-spring": "^8.0.27",
     "wowjs": "^1.1.3"
   },
