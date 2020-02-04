@@ -17,11 +17,6 @@ import './css/Footer.css'
 import MainPage from './Components/Home';
 import ResumePage from './Components/Resume';
 import Interests from './Components/Interests/Interests';
-import Footer from './Components/Footer';
-
-// const MainPage = React.lazy( () => import('./Components/Home') );
-// const Interests = React.lazy( () => import('./Components/Interests/Interests') );
-// const ResumePage = React.lazy( () => import('./Components/Resume') );
 
 export default class App extends React.Component {
 

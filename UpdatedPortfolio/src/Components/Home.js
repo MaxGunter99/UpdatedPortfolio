@@ -1,7 +1,6 @@
 
 // DEP.
 import React from 'react';
-// import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
 import WOW from 'wowjs';
 
 // AVATAR IMAGE
