@@ -1,6 +1,6 @@
 // DEP
-import React from 'react';
-import { NavLink, Route } from 'react-router-dom';
+import React, { lazy } from 'react';
+import { Route, NavLink } from 'react-router-dom';
 import WOW from 'wowjs';
 
 // IMAGES
@@ -17,6 +17,10 @@ import './css/Footer.css'
 import MainPage from './Components/Home';
 import ResumePage from './Components/Resume';
 import Interests from './Components/Interests/Interests';
+
+// const MainPage = lazy(() => import('./Components/Home'));
+// const ResumePage = lazy(() => import('./Components/Resume'));
+// const Interests = lazy(() => import('./Components/Interests/Interests'));
 
 export default class App extends React.Component {
 
@@ -121,6 +125,7 @@ export default class App extends React.Component {
             </div>
 
           : null}
+
 
           <Route exact path='/' component={MainPage} />
           <Route exact path='/Resume' component={ResumePage} />
