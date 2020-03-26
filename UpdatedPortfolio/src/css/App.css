@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(255, 255, 255);;
+    background-color: rgb(183,41,37);
 }
 
 #root {
@@ -8,7 +8,7 @@ html {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     width: 100%;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -23,8 +23,14 @@ html {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1280px;
 
+}
+
+.MenuContainer {
+    background-color: white;
+    width: 100%;
 }
 
 .BottomSection {
@@ -32,6 +38,8 @@ html {
     background-color: rgb(236, 236, 236);
     padding-top: 40px;
     padding-bottom: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
 
 }
 
