@@ -56,7 +56,7 @@ img.ConnectOurKidsScreenshot {
 
 }
 
-.ConnectOurKidsInfo {
+.Info {
 
     display: flex;
     flex-direction: column;
@@ -71,10 +71,13 @@ img.ConnectOurKidsScreenshot {
 
 .GitHub {
 
-    width: auto;
+    width: 150px;
+    margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
     background-color: black;
     font-size: 18px;
 
@@ -127,7 +130,7 @@ ul li {
     
     }
 
-    .ConnectOurKidsInfo {
+    .Info {
 
         padding: 30px;
     
@@ -197,11 +200,11 @@ ul li {
 
     }
 
-    .ConnectOurKidsInfo {
+    .Info {
 
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
         text-indent: 25px;
         justify-content: space-evenly;

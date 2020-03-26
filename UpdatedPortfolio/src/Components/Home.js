@@ -66,7 +66,6 @@ export default class MainPage extends React.Component {
                     </div>
 
                     {/* LANGUAGES */}
-
                     <div className='SkillsContainer'>
 
                         <h1 className='Skills'>Skills</h1>
@@ -174,8 +173,10 @@ export default class MainPage extends React.Component {
                     </div>
 
                     <div className='BottomSection'>
+
                         <ConnectOurKids />
                         <Personalize />
+
                     </div>
 
                 </div>

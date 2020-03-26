@@ -8,7 +8,6 @@
     margin: 0 auto;
     margin-top: 50px;
     border: 2px solid rgba(0, 0, 0, 0.178);
-    /* padding: 10px; */
     border-radius: 10px;
     background-color: white;
 
@@ -36,7 +35,7 @@
 
 }
 
-.PersonalizeInfo {
+.Info {
 
     display: flex;
     flex-direction: column;
