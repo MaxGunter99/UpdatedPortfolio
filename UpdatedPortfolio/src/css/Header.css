@@ -15,10 +15,10 @@ h1.Name {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    height: 75px;
+    height: 45px;
     width: 100%;
     margin: 0 auto;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(183,41,37);
     position: relative;
     z-index: 20;
     background-color: white;
@@ -37,20 +37,20 @@ h1.Name {
 .Title a {
 
     text-decoration: none;
-    border-radius: 10px;
-    padding: 20px 15px 20px 15px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 20px;
     transition: .5s;
     color: black;
     font-size: 18px;
+    border: 2px solid white;
     
 }
 
 a.active {
-
-    text-decoration: underline;
-    /* text-decoration-color: red; */
-    font-weight: bold;
-    transition: .1s
+    background-color: rgb(183,41,37);
+    border: 2px solid rgb(183,41,37);
+    color: white;
+    transition: .5s
 
 }
 
@@ -67,6 +67,7 @@ a.active {
         justify-content: center;
         flex-direction: column;
         width: 100%;
+        height: auto;
         align-items: center;
         text-align: center;
         margin: 0 auto;
