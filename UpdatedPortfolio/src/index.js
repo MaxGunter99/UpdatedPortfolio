@@ -1,14 +1,11 @@
-import React, { Suspense , lazy } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-// import App from './App';
-const App = lazy(() => import('./App'));
+import App from './App';
 
 ReactDOM.render(
     <Router>
-        <Suspense fallback = { <div className = 'Loader'><img src = 'https://i.ya-webdesign.com/images/transparent-bars-loading-3.gif'/></div> }>
-            <App />
-        </Suspense>
+        <App/>
     </Router>
 , document.getElementById('root'));

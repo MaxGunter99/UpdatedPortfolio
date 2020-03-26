@@ -4,8 +4,7 @@
 
     margin: 0 auto;
     width: 80%;
-    border: 2px solid rgba(0, 0, 0, 0.178);
-    /* padding: 10px; */
+    border: 2px solid rgba(219, 219, 219, 0.178);
     border-radius: 10px;
     background-color: white;
 
@@ -90,6 +89,7 @@ img.ConnectOurKidsScreenshot {
 
 ul li {
     text-indent: 0px;
+    text-align: left;
 }
 
 /* MEDIA QUERIE */

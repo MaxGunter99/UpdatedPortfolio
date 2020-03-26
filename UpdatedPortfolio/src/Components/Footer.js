@@ -55,46 +55,10 @@ export default class Footer extends Component {
                     {/* <h1>M.G.</h1> */}
                     <h3 className = 'FooterTopic'>Pages</h3>
 
-                    {window.location.href.split('/')[3] === '' ?
-
-                        <div>
-                            <NavLink className = 'ALink' exact to='/' style = {{
-                                textDecoration: 'none',
-                                backgroundColor: 'black',
-                                color: 'white'
-                            }}>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/AboutMe'>Interests</NavLink>
-                            <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
-                            {/* <p>Contact Me</p> */}
-                        </div>
-
-                    : window.location.href.split('/')[3] === 'AboutMe' ?
-
-                        <div>
-                            <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/AboutMe' style = {{
-                                textDecoration: 'none',
-                                backgroundColor: 'black',
-                                color: 'white'
-                            }}>Interests</NavLink>
-                            <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
-                            {/* <p>Contact Me</p> */}
-                        </div>
-
-                    : window.location.href.split('/')[3] === 'Resume' ?
-
-                        <div>
-                            <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
-                            <NavLink className = 'ALink' exact to='/AboutMe'>About Me</NavLink>
-                            <NavLink className = 'ALink' exact to='/Resume' style = {{
-                                textDecoration: 'none',
-                                backgroundColor: 'black',
-                                color: 'white'
-                            }}>Resume</NavLink>
-                            {/* <p>Contact Me</p> */}
-                        </div>
-
-                    : null }
+                    <div>
+                        <NavLink className = 'ALink' exact to='/'>Skills</NavLink>
+                        <NavLink className = 'ALink' exact to='/Resume'>Resume</NavLink>
+                    </div>
             
                 </div>
 

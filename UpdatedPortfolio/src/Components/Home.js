@@ -26,12 +26,10 @@ import '../css/ContactMe.css';
 import '../css/Bio.css';
 import '../css/Languages.css';
 import '../css/Parallax.css';
-// import '../css/ParallaxImages.css';
 import '../css/ConnectOurKids.css';
 import '../css/Personalize.css';
 import '../css/Resume.css';
 import '../css/Footer.css'
-import Footer from './Footer';
 
 export default class MainPage extends React.Component {
 
@@ -176,14 +174,11 @@ export default class MainPage extends React.Component {
                     </div>
 
                     <div className='BottomSection'>
-                        <h1>Projects</h1>
                         <ConnectOurKids />
                         <Personalize />
                     </div>
 
                 </div>
-
-                <Footer />
 
             </div>
         );
