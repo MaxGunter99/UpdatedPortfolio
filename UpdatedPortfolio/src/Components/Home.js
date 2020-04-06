@@ -172,6 +172,8 @@ export default class MainPage extends React.Component {
 
                     </div>
 
+                    <h1 className='Projects'>Projects</h1>
+
                     <div className='BottomSection'>
 
                         <ConnectOurKids />

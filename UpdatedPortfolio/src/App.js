@@ -24,7 +24,7 @@ export default class App extends React.Component {
 
           <div className="Title">
 
-            <NavLink exact to='/'>Skills</NavLink>
+            <NavLink exact to='/'>Projects</NavLink>
             <NavLink exact to='/Resume'>Resume</NavLink>
 
           </div>

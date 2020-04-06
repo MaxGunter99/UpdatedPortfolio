@@ -14,7 +14,7 @@ footer {
 }
 
 footer div {
-    min-height: 80px;
+    min-height: 70px;
     text-align: center;
 }
 
@@ -104,6 +104,19 @@ footer div {
 
     cursor: pointer;
     border: 2px solid black;
+
+}
+
+@media only screen 
+  and (min-width: 300px) 
+  and (max-width: 1250px) {
+
+    footer {
+
+        border-radius: 0px;
+        
+    
+    }
 
 }
 
