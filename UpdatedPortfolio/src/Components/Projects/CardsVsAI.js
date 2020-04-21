@@ -28,7 +28,6 @@ export default class CardsVsAI extends React.Component {
 
                         <video className='CardsVsAIVideo' autoPlay loop muted >
                             <source src={ CVSAIvideo } type='video/mp4' ref="vidRef"/>
-                            <img src = {CardsVsAIScreenshot } className = 'CardsVsAIScreenshot' alt = 'CardsVsAIScreenshot'/>
                         </video>
 
                     </div>
