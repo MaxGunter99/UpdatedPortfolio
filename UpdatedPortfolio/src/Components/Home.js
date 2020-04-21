@@ -19,6 +19,7 @@ import Jest from '../Images/jest.png'
 // PROJECTS
 import Personalize from './Projects/Personalize';
 import ConnectOurKids from './Projects/ConnectOurKids';
+import CardsVsAI from './Projects/CardsVsAI';
 
 // CSS IMPORTS
 import "../css/App.css";
@@ -178,6 +179,7 @@ export default class MainPage extends React.Component {
 
                         <ConnectOurKids />
                         <Personalize />
+                        <CardsVsAI/>
 
                     </div>
 
