@@ -20,16 +20,6 @@
 
 }
 
-img.CardsVsAIScreenshot {
-
-    height: 700px;
-    width: auto;
-    border: 4px solid rgb(145, 145, 145);
-    border-radius: 30px;
-    padding: 5px;
-
-}
-
 .CardsVsAIContent {
 
     display: flex;
@@ -42,22 +32,23 @@ img.CardsVsAIScreenshot {
 
 }
 
-.CardsVsAIVideoContainer {
+.CardsVsAIImages {
 
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
+    width: 50%;
+    height: 100%;
 
 }
 
-.CardsVsAIVideo {
-
-    height: 645px;
-    width: auto;
+img.CardsVsAiScreenshot {
+    width: 272px;
+    height: 600px;
+    margin: 0 auto;
     border: 4px solid rgb(145, 145, 145);
     border-radius: 30px;
-    padding: 5px;
-
+    margin-bottom: 20px;  
 }
 
 .Info {
@@ -129,13 +120,6 @@ ul li {
     
     }
 
-    .CardsVsAIVideo {
-
-        height: 645px;
-        width: auto;
-    
-    }
-
     .Info {
 
         padding: 30px;
@@ -183,15 +167,6 @@ ul li {
         justify-content: space-evenly;
         width: auto;
         height: 100%;
-
-    }
-
-    .CardsVsAIVideo {
-
-        width: auto;
-        height: 700px;
-        margin: 0 auto;
-        margin-bottom: 20px;
 
     }
 

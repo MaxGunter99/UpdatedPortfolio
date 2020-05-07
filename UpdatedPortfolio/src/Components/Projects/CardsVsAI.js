@@ -1,8 +1,8 @@
 import React from 'react';
 
 // IMAGES
-import CVSAIvideo from '../../Images/CVSAI.mov';
 import CardsVsAIScreenshot from '../../Images/CardsVsAIScreenshot.jpg'
+import CardsVsAIGame from '../../Images/CardsVsAIGame.png'
 import '../../css/CardsVsAI.css'
 
 
@@ -24,12 +24,9 @@ export default class CardsVsAI extends React.Component {
 
                 <div className='CardsVsAIContent'>
 
-                    <div className='CardsVsAIVideoContainer'>
-
-                        <video className='CardsVsAIVideo' autoPlay loop muted >
-                            <source src={ CVSAIvideo } type='video/mp4' ref="vidRef"/>
-                        </video>
-
+                    <div className='CardsVsAIImages'>
+                        <img src={CardsVsAIScreenshot} className='CardsVsAiScreenshot' alt='CardsVsAiScreenshot' />
+                        {/* <img src={CardsVsAIGame} className='CardsVsAiScreenshot one' alt='CardsVsAiScreenshot' /> */}
                     </div>
 
                     <div className='Info'>
