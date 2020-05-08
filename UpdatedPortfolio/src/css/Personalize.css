@@ -6,10 +6,10 @@
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
-    border: 2px solid rgba(0, 0, 0, 0.178);
+    margin-top: 100px;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur( 5px );
 
 }
 
@@ -71,6 +71,7 @@ ul li {
 
     .Personalize {
         width: 90%;
+        margin-top: 40px;
         padding: 10px;
     }
 
@@ -88,6 +89,7 @@ ul li {
     .Personalize {
 
         width: 90%;
+        margin-top: 100px;
 
     }
 

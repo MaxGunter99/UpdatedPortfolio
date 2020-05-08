@@ -52,7 +52,6 @@ export default class Footer extends Component {
 
                 <div className='Pages'>
 
-                    {/* <h1>M.G.</h1> */}
                     <h3 className = 'FooterTopic'>Pages</h3>
 
                     <div>

@@ -6,12 +6,12 @@
     /* background-image: url('https://images.wallpaperscraft.com/image/texture_lines_stripes_155474_1920x1080.jpg'); */
     background-size: 1280px;
     background-position: center center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-bottom: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
     
 }
 

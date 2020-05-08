@@ -34,7 +34,7 @@ export default class App extends React.Component {
         <Route exact path='/' component={MainPage} />
         <Route exact path='/Resume' component={ResumePage} />
 
-        <Footer />
+        <Footer/>
 
       </div>
 

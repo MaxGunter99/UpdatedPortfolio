@@ -4,7 +4,7 @@ import React from 'react';
 import WOW from 'wowjs';
 
 // AVATAR IMAGE
-import Avatar from '../Images/avatar2.jpg';
+import Avatar from '../Images/avatar3.jpg';
 
 // LANGUAGE IMAGES
 import Javascript from '../Images/js.png';
@@ -46,23 +46,16 @@ export default class MainPage extends React.Component {
 
             <div class="Header" className="wow fadeIn" data-wow-duration=".3s">
 
-                <div>
+                <div className = 'Home'>
 
                     {/* BIO */}
-                    <div>
 
-                        <div className='Bio'>
+                    <div className = 'BioContainer'>
 
-                            <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
-                            <div className='AvatarBackground' />
+                        <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                        <div className = 'AvatarBackground'></div>
 
-                        </div>
-
-                    </div>
-
-                    <div>
-
-                        <div className='BioContent'>I am a software engineer at Lambda School, an online training academy focused on Web Development. My career goal is to participate with a team that focuses on intricate problem solving in order to help a wide variety of people. My main focus is front end, because one of my strengths is creating efficient ways to improve user interface.</div>
+                        <div className='BioContent'>Software Engineer educated by hands-on experience through Lambda School's Full-Stack Web Development track. Strong collaborator, open-minded, motivated, and a fast learner. When grasping a new concept I can hit the ground running with it. Values the intricacy included in the stages of planning and developing projects from the Back-End to the Front-End. Works well in cross-functional teams to achieve the project or task at hand.</div>
 
                     </div>
 
@@ -173,9 +166,9 @@ export default class MainPage extends React.Component {
 
                     </div>
 
-                    <h1 className='Projects'>Projects</h1>
-
                     <div className='BottomSection'>
+
+                        <h1 className='Projects'>Projects</h1>
 
                         <ConnectOurKids />
                         <Personalize />

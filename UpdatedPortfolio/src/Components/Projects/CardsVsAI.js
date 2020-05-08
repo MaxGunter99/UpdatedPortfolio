@@ -25,8 +25,13 @@ export default class CardsVsAI extends React.Component {
                 <div className='CardsVsAIContent'>
 
                     <div className='CardsVsAIImages'>
+
+                        <div className='CardsVsAiScreenshotTwo one'>
+                            <img src={'https://miro.medium.com/max/2000/1*3l1h9uWiNRggMXH-ibcVVA.gif'} className='CardsVsAiTwo' alt='CardsVsAiScreenshot' />
+                        </div>
+
                         <img src={CardsVsAIScreenshot} className='CardsVsAiScreenshot' alt='CardsVsAiScreenshot' />
-                        {/* <img src={CardsVsAIGame} className='CardsVsAiScreenshot one' alt='CardsVsAiScreenshot' /> */}
+
                     </div>
 
                     <div className='Info'>
