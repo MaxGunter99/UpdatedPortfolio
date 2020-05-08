@@ -133,6 +133,7 @@
     .SkillsContainer {
 
         /* height: fit-content; */
+        margin-bottom: 50px;
         background-size: auto;
         background-position: center top;
         background-attachment: initial;
