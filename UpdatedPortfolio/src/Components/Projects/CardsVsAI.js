@@ -2,7 +2,6 @@ import React from 'react';
 
 // IMAGES
 import CardsVsAIScreenshot from '../../Images/CardsVsAIScreenshot.jpg'
-import CardsVsAIGame from '../../Images/CardsVsAIGame.png'
 import '../../css/CardsVsAI.css'
 
 
