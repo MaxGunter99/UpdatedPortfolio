@@ -41,7 +41,7 @@ html {
     background-image: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     overflow: hidden;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 150vh;
     background-position: center;
     margin-top: 20px;
     padding-bottom: 20px;
@@ -69,14 +69,22 @@ h1.Projects {
 
 @media only screen 
   and (min-width: 300px) 
-  and (max-width: 1250px) {
+  and (max-width: 812px) {
+
+    h1.Projects {
+        background-color: white;
+        width: 40%;
+        margin-top: 0px;
+        border-radius: 0px 0px 10px 10px;
+        padding-top: 0px;
+    }
 
     .BottomSection {
 
         border-radius: 0px;
-        background-color: rgb(219, 219, 219);
+        background-image: none;
         /* margin-bottom: 0px; */
-        background-size: 150vh;
+        background-color: rgb(230, 230, 230);
         
     
     }

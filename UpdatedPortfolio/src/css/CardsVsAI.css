@@ -149,9 +149,10 @@ ul li {
   and (max-width: 900px) {
 
     .CardsVsAIDiv {
-
+        background-color: white;
         width: 90%;
         margin-top: 50px;
+        margin-bottom: 25px;
 
     }
 

@@ -87,9 +87,9 @@ ul li {
   and (max-width: 900px) {
 
     .Personalize {
-
+        background-color: white;
         width: 90%;
-        margin-top: 100px;
+        margin-top: 50px;
 
     }
 

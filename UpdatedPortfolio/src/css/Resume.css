@@ -22,7 +22,7 @@ img.Res {
         justify-content: center;
         margin: 0 auto;
         height: auto;
-        margin-top: 70px;
+        margin-top: -1px;
         max-width: 100%;
 
     }
