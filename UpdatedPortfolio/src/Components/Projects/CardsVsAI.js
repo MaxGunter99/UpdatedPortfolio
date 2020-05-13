@@ -2,6 +2,7 @@ import React from 'react';
 
 // IMAGES
 import CardsVsAIScreenshot from '../../Images/CardsVsAIScreenshot.jpg'
+import CardsVsAILoad from '../../Images/CardsVsAILoad.jpg'
 import '../../css/CardsVsAI.css'
 
 
@@ -26,7 +27,7 @@ export default class CardsVsAI extends React.Component {
                     <div className='CardsVsAIImages'>
 
                         <div className='CardsVsAiScreenshotTwo one'>
-                            <img src={'https://miro.medium.com/max/2000/1*3l1h9uWiNRggMXH-ibcVVA.gif'} className='CardsVsAiTwo' alt='CardsVsAiScreenshot' />
+                            <img src = { CardsVsAILoad } className='CardsVsAiTwo' alt='CardsVsAiScreenshot' />
                         </div>
 
                         <img src={CardsVsAIScreenshot} className='CardsVsAiScreenshot' alt='CardsVsAiScreenshot' />
