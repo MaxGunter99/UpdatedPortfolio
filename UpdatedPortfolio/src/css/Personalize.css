@@ -64,6 +64,14 @@ ul li {
     text-indent: 0px;
 }
 
+.gitHubSection {
+    display: flex;
+    flex-direction: row;
+}
+
+div.gitHubSection button {
+    width: auto;
+}
 /* MOBILE MEDIA QUERIE */
 @media only screen 
   and (min-width: 900px)
@@ -80,11 +88,25 @@ ul li {
         margin: 0 auto;
     }
 
+    div.gitHubSection {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen 
   and (min-width: 300px) 
   and (max-width: 900px) {
+
+    div.gitHubSection {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
 
     .Personalize {
         background-color: white;
