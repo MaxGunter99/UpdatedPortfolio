@@ -72,6 +72,7 @@ ul li {
 div.gitHubSection button {
     width: auto;
 }
+
 /* MOBILE MEDIA QUERIE */
 @media only screen 
   and (min-width: 900px)
