@@ -26,9 +26,6 @@ import "../css/App.css";
 import '../css/ContactMe.css';
 import '../css/Bio.css';
 import '../css/Languages.css';
-import '../css/Parallax.css';
-import '../css/ConnectOurKids.css';
-import '../css/Personalize.css';
 import '../css/Resume.css';
 import '../css/Footer.css'
 
