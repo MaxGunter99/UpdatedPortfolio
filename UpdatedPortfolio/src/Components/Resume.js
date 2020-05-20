@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 
 // IMAGES
-import Resume from '../Images/resume.JPEG'
+import Resume from '../Images/resume.jpeg'
 
 // CSS
 import '../css/App.css'
