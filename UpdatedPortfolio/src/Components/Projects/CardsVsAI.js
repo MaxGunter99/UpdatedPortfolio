@@ -45,7 +45,9 @@ export default class CardsVsAI extends React.Component {
                             <li>Runs on Expo</li>
                         </ul>
 
-                        <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
+                        <div className = "ButtonContainer">
+                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
+                        </div>
 
                     </div>
 

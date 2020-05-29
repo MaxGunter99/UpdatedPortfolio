@@ -14,7 +14,7 @@
 
 }
 
-.Personalize div {
+.PersonalizeContent {
 
     display: flex;
     justify-content: center;
@@ -54,6 +54,10 @@ img.PersonalizeIMG {
 
 }
 
+img.PersonalizeIMG .Two {
+    margin-top: 20px;
+}
+
 .Personalize p {
 
     text-indent: 20px;
@@ -71,15 +75,21 @@ ul li {
 
 }
 
-.gitHubSection {
+/* .ButtonContainer {
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 10px;
     display: flex;
-    width: 70%;
-    justify-content: space-evenly;
     flex-direction: row;
-}
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+} */
 
-div.gitHubSection button {
-    width: auto;
+.ButtonContainer button {
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* MOBILE MEDIA QUERIE */
@@ -96,16 +106,13 @@ div.gitHubSection button {
         border-radius: 10px;
     }
 
-    .Personalize div {
+    .PersonalizeContent {
         width: 90%;
         margin: 0 auto;
     }
 
-    div.gitHubSection {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-between;
+    img.PersonalizeIMG .Two {
+        margin-top: 20px;
     }
 
     .Info {
@@ -132,6 +139,10 @@ div.gitHubSection button {
         margin: 0 auto;
         padding-bottom: 20px;
 
+    }
+
+    img.PersonalizeIMG .Two {
+        margin-top: 20px;
     }
 
     .PersonalizeContent {
@@ -163,17 +174,6 @@ div.gitHubSection button {
         align-items: center;
         font-size: 1rem;
 
-    }
-
-    div.gitHubSection {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    div.gitHubSection button {
-        margin-top: 0px;
     }
 
 }

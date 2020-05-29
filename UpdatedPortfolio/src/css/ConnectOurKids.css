@@ -68,32 +68,30 @@ img.ConnectOurKidsScreenshot {
 
 }
 
-.GitHub {
+ul li {
+    text-indent: 0px;
+    text-align: left;
+}
 
+.ButtonContainer button {
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
     width: 150px;
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
     color: white;
-    padding: 5px;
     border-radius: 5px;
     background-color: black;
-    font-size: 18px;
-    transition: .5s;
-
+    font-size: 15px;
+    transition: .3s;
+    border: 2px solid black;
 }
 
-.GitHub:hover {
-
-    transition: .5s;
-    background-color: rgb(183,41,37);
-    cursor: pointer;
-
-}
-
-ul li {
-    text-indent: 0px;
-    text-align: left;
+.ButtonContainer button:hover {
+    color: black;
+    background-color: white;
 }
 
 /* MEDIA QUERIE */
@@ -138,10 +136,19 @@ ul li {
     
     }
 
+    .ButtonContainer {
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 10px;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
 }
 
 @media only screen 
-  and (min-width: 300px) 
+  and (min-width: 0px) 
   and (max-width: 1184px) {
 
     .ConnectKidsDiv {
@@ -213,6 +220,20 @@ ul li {
         align-items: center;
         font-size: 1rem;
 
+    }
+
+    .ButtonContainer {
+        background-color: rgba(255, 255, 255, 0.137);
+        border-radius: 10px;
+        width: fit-content;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .ButtonContainer {
+        background-color: rgb(241, 241, 241);
     }
 
 }

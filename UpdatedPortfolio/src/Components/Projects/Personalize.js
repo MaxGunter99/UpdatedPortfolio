@@ -45,7 +45,7 @@ export default class Personalize extends React.Component {
                         </div>
 
 
-                        <div className = 'gitHubSection'>
+                        <div className = 'ButtonContainer'>
                             <button className = 'GitHub' onClick = { () => this.toGitHubFrontEnd() }>View Front-End on GitHub</button>
                             <button className = 'GitHub' onClick = { () => this.toGitHubBackEnd() }>View Back-End on GitHub</button>
                         </div>

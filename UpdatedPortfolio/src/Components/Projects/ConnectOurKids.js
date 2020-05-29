@@ -15,6 +15,10 @@ export default class ConnectOurKids extends React.Component {
 
     }
 
+    toAppStore = () => {
+        window.location = 'https://apps.apple.com/us/app/connect-our-kids/id1471038972?mt=8'
+    }
+
     render() {
 
         return (
@@ -44,7 +48,11 @@ export default class ConnectOurKids extends React.Component {
                             <li>Stayed in contact with stakeholder</li>
                         </ul>
 
-                        <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
+                        <div className = "ButtonContainer">
+
+                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
+                            <button className = 'GitHub' onClick = { () => this.toAppStore() }>View in App Store</button>
+                        </div>
 
                     </div>
 

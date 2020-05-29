@@ -43,7 +43,7 @@ html {
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
     margin-top: 20px;
     padding-bottom: 20px;
