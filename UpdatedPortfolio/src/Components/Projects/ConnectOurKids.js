@@ -19,6 +19,10 @@ export default class ConnectOurKids extends React.Component {
         window.location = 'https://apps.apple.com/us/app/connect-our-kids/id1471038972?mt=8'
     }
 
+    toGooglePlay = () => {
+        window.location = 'https://play.google.com/store/apps/details?id=com.connectOurKids'
+    }
+
     render() {
 
         return (
@@ -46,12 +50,15 @@ export default class ConnectOurKids extends React.Component {
                             <li>5 developers on our team</li>
                             <li>Participated in daily standups</li>
                             <li>Stayed in contact with stakeholder</li>
+                            <li>Tested with Expo and TestFlight</li>
+                            <li>Deployed to the App Store and Google Play</li>
                         </ul>
 
                         <div className = "ButtonContainer">
 
-                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
-                            <button className = 'GitHub' onClick = { () => this.toAppStore() }>View in App Store</button>
+                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>GitHub</button>
+                            <button className = 'GitHub' onClick = { () => this.toAppStore() }>App Store</button>
+                            <button className = 'GitHub' onClick = { () => this.toGooglePlay() }>Google Play</button>
                         </div>
 
                     </div>

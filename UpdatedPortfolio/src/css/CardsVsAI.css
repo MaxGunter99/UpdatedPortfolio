@@ -85,15 +85,6 @@ ul li {
     text-align: left;
 }
 
-/* .ButtonContainer {
-    background-color: rgba(255, 255, 255, 0.137);
-    border-radius: 10px;
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    justify-content: space-evenly;
-} */
-
 .ButtonContainer button {
     width: fit-content;
     margin: 10px;

@@ -20,7 +20,7 @@ export default class CardsVsAI extends React.Component {
 
             <div className='CardsVsAIDiv'>
 
-                <h1>Cards VS AI</h1>
+                <h1>Cards vs AI</h1>
 
                 <div className='CardsVsAIContent'>
 
@@ -46,7 +46,7 @@ export default class CardsVsAI extends React.Component {
                         </ul>
 
                         <div className = "ButtonContainer">
-                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>View on GitHub</button>
+                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>GitHub</button>
                         </div>
 
                     </div>

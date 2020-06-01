@@ -28,7 +28,8 @@
     color: black;
     font-family: 'Lobster', cursive;
     text-decoration: underline;
-    text-decoration-color: red;
+    /* text-decoration-color: red; */
+    color: white;
     font-size: 50px;
     margin: 0 auto;
     margin-top: 20px;
@@ -54,6 +55,10 @@ img.PersonalizeIMG {
 
 }
 
+.PersonalizeContent.two {
+    margin-top: 25px;
+}
+
 img.PersonalizeIMG .Two {
     margin-top: 20px;
 }
@@ -74,17 +79,6 @@ ul li {
     text-align: left;
 
 }
-
-/* .ButtonContainer {
-    background-color: rgba(255, 255, 255, 0.137);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 10px;
-    align-items: center;
-    justify-content: space-evenly;
-} */
 
 .ButtonContainer button {
     width: fit-content;
