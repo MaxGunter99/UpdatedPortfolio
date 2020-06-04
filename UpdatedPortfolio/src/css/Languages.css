@@ -2,12 +2,12 @@
 .SkillsContainer {
 
     background-image: url('https://images.unsplash.com/photo-1457419655743-2e0acc6b5122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+
     /* background-image: url('https://images.wallpaperscraft.com/image/pattern_embossed_geometric_130686_1920x1080.jpg'); */
-    /* background-image: url('https://images.wallpaperscraft.com/image/texture_lines_stripes_155474_1920x1080.jpg'); */
+    /* background-image: url('https://images.unsplash.com/photo-1591226344778-a1153a71f5b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'); */
+    /* background-color: rgb(87,154,175); */
     background-size: 1280px;
     background-position: center center;
-    /* margin-top: 20px; */
-    padding-top: 20px;
     padding-bottom: 30px;
     margin-bottom: 50px;
     background-attachment: fixed;
@@ -20,7 +20,8 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
+    padding: 10px;
     height: auto;
     align-items: baseline;
     background-color: rgba(255, 255, 255, 0.192);
@@ -41,10 +42,11 @@
 
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    width: 40%;
-    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+    width: 60%;
+    border-radius: 0px 0px 10px 10px;
 
 }
 

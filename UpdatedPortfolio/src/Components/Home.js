@@ -3,8 +3,9 @@
 import React from 'react';
 import WOW from 'wowjs';
 
-// AVATAR IMAGE
+// IMAGES
 import Avatar from '../Images/avatar3.jpg';
+import LambdaStampGoAllIn from '../Images/LambdaStampGoAllIn.png'
 
 // LANGUAGE IMAGES
 import Javascript from '../Images/js.png';
@@ -50,7 +51,7 @@ export default class MainPage extends React.Component {
                     <div className = 'BioContainer'>
 
                         <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
-                        <div className = 'AvatarBackground'></div>
+                        {/* <img src = { LambdaStampGoAllIn } className = "Stamp" /> */}
 
                         <div className='BioContent'>Software Engineer educated by hands-on experience through Lambda School's Full-Stack Web Development track. Strong collaborator, open-minded, motivated, and a fast learner. When grasping a new concept I can hit the ground running with it. Values the intricacy included in the stages of planning and developing projects from the Back-End to the Front-End. Works well in cross-functional teams to achieve the project or task at hand.</div>
 
