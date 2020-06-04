@@ -34,8 +34,8 @@ h1.Name {
 .Title a {
 
     text-decoration: none;
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px 20px;
+    /* border-radius: 10px 10px 0px 0px; */
+    padding: 5px 10px;
     transition: .5s;
     color: black;
     font-size: 18px;

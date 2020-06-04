@@ -24,6 +24,8 @@ import Redux from '../Images/redux.jpg';
 import html from '../Images/HTML.svg';
 import Django from '../Images/djangologo.png';
 import Jest from '../Images/jest.png';
+import REST from '../Images/restAPI.png';
+import Express from '../Images/expresslogo.png';
 
 // PROJECTS
 const Personalize = React.lazy(() => import('./Projects/Personalize'));
@@ -125,7 +127,7 @@ export default class MainPage extends React.Component {
                                     </div>
 
                                     <div className='LanguageContainer'>
-
+                                        <img className='LanguageImage' src={Express} alt='LanguageImage' />
                                         <p className='LanguageText'>Express</p>
 
                                     </div>
@@ -137,7 +139,7 @@ export default class MainPage extends React.Component {
                                     </div>
 
                                     <div className='LanguageContainer'>
-
+                                        <img className='LanguageImage' src={REST} alt='LanguageImage' />
                                         <p className='LanguageText'>REST APIs</p>
 
                                     </div>
