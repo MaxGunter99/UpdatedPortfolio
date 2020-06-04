@@ -3,7 +3,7 @@
 h1.Name {
 
     padding: 10px;
-    font-size: 30px;
+    font-size: 2.5rem;
 
 }
 
@@ -13,7 +13,6 @@ h1.Name {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
     width: 100%;
     height: 45px;
     margin: 0 auto;
