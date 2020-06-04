@@ -1,10 +1,18 @@
 
 // DEP.
-import React from 'react';
+import React, { Suspense } from 'react';
 import WOW from 'wowjs';
 
 // IMAGES
 import Avatar from '../Images/avatar3.jpg';
+
+// CSS IMPORTS
+import "../css/App.css";
+import '../css/ContactMe.css';
+import '../css/Bio.css';
+import '../css/Languages.css';
+import '../css/Resume.css';
+import '../css/Footer.css';
 
 // LANGUAGE IMAGES
 import Javascript from '../Images/js.png';
@@ -14,20 +22,12 @@ import Python from '../Images/python.jpg';
 import Redux from '../Images/redux.jpg';
 import html from '../Images/HTML.svg';
 import Django from '../Images/djangologo.png';
-import Jest from '../Images/jest.png'
+import Jest from '../Images/jest.png';
 
 // PROJECTS
-import Personalize from './Projects/Personalize';
-import ConnectOurKids from './Projects/ConnectOurKids';
-import CardsVsAI from './Projects/CardsVsAI';
-
-// CSS IMPORTS
-import "../css/App.css";
-import '../css/ContactMe.css';
-import '../css/Bio.css';
-import '../css/Languages.css';
-import '../css/Resume.css';
-import '../css/Footer.css'
+const Personalize = React.lazy(() => import('./Projects/Personalize'));
+const ConnectOurKids = React.lazy(() => import('./Projects/ConnectOurKids'));
+const CardsVsAI = React.lazy(() => import('./Projects/CardsVsAI'));
 
 export default class MainPage extends React.Component {
 
@@ -48,8 +48,9 @@ export default class MainPage extends React.Component {
                     {/* BIO */}
 
                     <div className = 'BioContainer'>
-
-                        <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                        <Suspense fallback={ null }>
+                            <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                        </Suspense>
                         <div className='BioContent'>Software Engineer educated by hands-on experience through Lambda School's Full-Stack Web Development track. Strong collaborator, open-minded, motivated, and a fast learner. When grasping a new concept I can hit the ground running with it. Values the intricacy included in the stages of planning and developing projects from the Back-End to the Front-End. Works well in cross-functional teams to achieve the project or task at hand.</div>
 
                     </div>
@@ -59,105 +60,106 @@ export default class MainPage extends React.Component {
 
                         <h1 className='Skills'>Skills</h1>
 
-                        <div className='Languages'>
+                        <Suspense fallback={ null }>
 
-                            {/* FRONT END */}
-                            <div className='Container'>
+                            <div className='Languages'>
 
-                                <h2 className='Topics'>Front-End</h2>
+                                {/* FRONT END */}
+                                <div className='Container'>
 
-                                <div className='LanguageContainer'>
+                                    <h2 className='Topics'>Front-End</h2>
 
-                                    <img className='LanguageImage' src={html} alt='LanguageImage' />
-                                    <p className='LanguageText'>HTML5</p>
+                                    <div className='LanguageContainer'>
+                                        <img className='LanguageImage' src={html} alt='LanguageImage' />
+                                        <p className='LanguageText'>HTML5</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <img className='LanguageImage' src={Javascript} alt='LanguageImage' />
+                                        <p className='LanguageText'>Javascript</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
+                                        <p className='LanguageText'>React</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
+                                        <p className='LanguageText'>React Native</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <img className='LanguageImage' src={Redux} alt='LanguageImage' />
+                                        <p className='LanguageText'>Redux</p>
+
+                                    </div>
 
                                 </div>
 
-                                <div className='LanguageContainer'>
+                                {/* BACK END */}
+                                <div className='Container'>
 
-                                    <img className='LanguageImage' src={Javascript} alt='LanguageImage' />
-                                    <p className='LanguageText'>Javascript</p>
+                                    <h2 className='Topics'>Back-End</h2>
+
+                                    <div className='LanguageContainer'>
+
+                                        <img className='LanguageImage' src={NodeImg} alt='LanguageImage' />
+                                        <p className='LanguageText'>Node</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <p className='LanguageText'>Express</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+                                        <img className='LanguageImage' src={Jest} alt='LanguageImage' />
+                                        <p className='LanguageText'>Jest</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+
+                                        <p className='LanguageText'>REST APIs</p>
+
+                                    </div>
 
                                 </div>
 
-                                <div className='LanguageContainer'>
+                                {/* COMPUTER SCIENCE */}
+                                <div className='Container'>
 
-                                    <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
-                                    <p className='LanguageText'>React</p>
+                                    <h2 className='Topics'>CS</h2>
 
-                                </div>
+                                    <div className='LanguageContainer'>
 
-                                <div className='LanguageContainer'>
+                                        <img className='LanguageImage' src={Python} alt='LanguageImage' />
+                                        <p className='LanguageText'>Python3</p>
 
-                                    <img className='LanguageImage' src={ReactImg} alt='LanguageImage' />
-                                    <p className='LanguageText'>React Native</p>
+                                    </div>
 
-                                </div>
+                                    <div className='LanguageContainer'>
 
-                                <div className='LanguageContainer'>
+                                        <img className='LanguageImage' src={Django} alt='LanguageImage' />
+                                        <p className='LanguageText'>Django</p>
 
-                                    <img className='LanguageImage' src={Redux} alt='LanguageImage' />
-                                    <p className='LanguageText'>Redux</p>
+                                    </div>
 
                                 </div>
 
                             </div>
-
-                            {/* BACK END */}
-                            <div className='Container'>
-
-                                <h2 className='Topics'>Back-End</h2>
-
-                                <div className='LanguageContainer'>
-
-                                    <img className='LanguageImage' src={NodeImg} alt='LanguageImage' />
-                                    <p className='LanguageText'>Node</p>
-
-                                </div>
-
-                                <div className='LanguageContainer'>
-
-                                    <p className='LanguageText'>Express</p>
-
-                                </div>
-
-                                <div className='LanguageContainer'>
-
-                                    <img className='LanguageImage' src={Jest} alt='LanguageImage' />
-                                    <p className='LanguageText'>Jest</p>
-
-                                </div>
-
-                                <div className='LanguageContainer'>
-
-                                    <p className='LanguageText'>REST APIs</p>
-
-                                </div>
-
-                            </div>
-
-                            {/* COMPUTER SCIENCE */}
-                            <div className='Container'>
-
-                                <h2 className='Topics'>CS</h2>
-
-                                <div className='LanguageContainer'>
-
-                                    <img className='LanguageImage' src={Python} alt='LanguageImage' />
-                                    <p className='LanguageText'>Python3</p>
-
-                                </div>
-
-                                <div className='LanguageContainer'>
-
-                                    <img className='LanguageImage' src={Django} alt='LanguageImage' />
-                                    <p className='LanguageText'>Django</p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                        </Suspense>
 
                     </div>
 
@@ -165,9 +167,17 @@ export default class MainPage extends React.Component {
 
                         <h1 className='Projects'>Recent works</h1>
 
-                        <ConnectOurKids />
-                        <Personalize />
-                        <CardsVsAI/>
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <ConnectOurKids />
+                        </Suspense>
+
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <Personalize />
+                        </Suspense>
+
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <CardsVsAI/>
+                        </Suspense>
 
                     </div>
 

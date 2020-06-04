@@ -1,13 +1,13 @@
 // DEP.
-import React, { Component } from 'react'
-
-// IMAGES
-import Resume from '../Images/resume.jpeg'
+import React, { Component, Suspense } from 'react'
 
 // CSS
 import '../css/App.css'
 import '../css/Resume.css'
 import WOW from 'wowjs';
+
+// IMAGES
+import Resume from '../Images/resume.jpeg'
 
 class ResumePage extends Component {
 
@@ -20,11 +20,12 @@ class ResumePage extends Component {
     render() {
         return (
 
-            <div className="wow fadeIn" data-wow-duration=".3s">
+            <Suspense fallback={<div>Loading...</div>}>
+                <div className="wow fadeIn" data-wow-duration=".3s">
+                    <img src={Resume} className='Res' alt='Res' />
 
-                <img src={Resume} className='Res' alt='Res' />
-
-            </div>
+                </div>
+            </Suspense>
 
         )
     }
