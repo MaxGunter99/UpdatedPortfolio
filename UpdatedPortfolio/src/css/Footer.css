@@ -2,15 +2,15 @@ footer {
 
     width: 100%;
     margin: 0 auto;
-    /* padding-top: 20px; */
     margin-top: 40px;
     display: flex; 
-    border-radius: 10px 10px 0px 0px;
+    /* border-radius: 10px 10px 0px 0px; */
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(183,41,37);
     max-width: 1280px;
     flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
     color: rgb(43,29,40);
 
 }
@@ -18,8 +18,7 @@ footer {
 .LambdaStamp {
     height: 150px;
     width: 150px;
-    border-radius: 100%;
-    /* margin: 10px; */
+    border-radius: 50%;
     border: 5px solid rgb(255, 255, 255)
 }
 
@@ -77,6 +76,15 @@ footer div {
         margin-top: 30px;
         border-radius: 0px;
 
+    }
+
+    .Connect {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p {
+        width: fit-content;
     }
 
 }

@@ -20,6 +20,7 @@ export default class App extends React.Component {
       <div className='MenuContainer'>
 
         <div className='HomeTitle'>
+
           <h1 className="Name" >Michael Gunter</h1>
 
           <div className="Title">

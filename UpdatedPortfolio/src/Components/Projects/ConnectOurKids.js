@@ -42,7 +42,7 @@ export default class ConnectOurKids extends React.Component {
 
                     <div className='Info'>
 
-                        <p class="Card">Empowering child welfare professionals with a tool that easily searches extended family members that may be able to care for the child in place of putting them into the foster care system, connecting to family members immediately.</p>
+                        <p className="Card">Empowering child welfare professionals with a tool that easily searches extended family members that may be able to care for the child in place of putting them into the foster care system, connecting to family members immediately.</p>
 
                         <ul>
                             <li>Built in React Native</li>

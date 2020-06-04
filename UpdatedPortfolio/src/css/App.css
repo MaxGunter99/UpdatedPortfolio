@@ -57,10 +57,12 @@ h1.Projects {
 
     /* color: red; */
     background-color: rgb(255, 255, 255);
-    width: 60%;
-    border-radius: 0px 0px 10px 10px;
+    /* width: 100%; */
+    /* border-radius: 0px 0px 10px 10px; */
     margin: 0 auto;
-    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
 
 }
 
@@ -74,10 +76,8 @@ h1.Projects {
 
     h1.Projects {
         background-color: white;
-        width: 40%;
-        margin-top: 0px;
-        border-radius: 0px 0px 10px 10px;
-        padding-top: 0px;
+        width: 100%;
+        justify-content: center;
     }
 
     .BottomSection {

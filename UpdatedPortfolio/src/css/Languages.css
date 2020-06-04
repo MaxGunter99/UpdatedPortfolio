@@ -34,19 +34,19 @@
 .Topics {
 
     color: white;
-    text-decoration: underline;
 
 }
 
 .Skills {
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    margin-bottom: 20px;
-    width: 60%;
-    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    /* border-radius: 0px 0px 10px 10px; */
 
 }
 
@@ -101,6 +101,10 @@
         font-size: 1rem;
         /* flex-direction: column; */
 
+    }
+
+    .Skills {
+        justify-content: center;
     }
 
     .Container {

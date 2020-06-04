@@ -55,7 +55,7 @@ export default class Footer extends Component {
                     <img src={LambdaStamp} alt='LambdaStamp' className = 'LambdaStamp' />
                 </div>
 
-                <div>
+                <div className = "Connect">
                     <p className = 'Link' onClick={ () => this.toGitHub() }>GitHub</p>
                     <p className = 'Link' onClick={ () => this.toLinkedIn() }>LinkedIn</p>
                     <p className = 'Link' onClick={ () => this.toEmail() }>Email</p>
