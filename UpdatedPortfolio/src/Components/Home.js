@@ -9,7 +9,6 @@ import Avatar from '../Images/avatar10.PNG';
 
 // CSS IMPORTS
 import "../css/App.css";
-import '../css/ContactMe.css';
 import '../css/Bio.css';
 import '../css/Languages.css';
 import '../css/Resume.css';
@@ -26,6 +25,7 @@ import Django from '../Images/djangologo.png';
 import Jest from '../Images/jest.png';
 import REST from '../Images/restAPI.png';
 import Express from '../Images/expresslogo.png';
+import Puppeteer from '../Images/puppeteer.png';
 
 // PROJECTS
 const Personalize = React.lazy(() => import('./Projects/Personalize'));
@@ -141,6 +141,12 @@ export default class MainPage extends React.Component {
                                     <div className='LanguageContainer'>
                                         <img className='LanguageImage' src={REST} alt='LanguageImage' />
                                         <p className='LanguageText'>REST APIs</p>
+
+                                    </div>
+
+                                    <div className='LanguageContainer'>
+                                        <img className='LanguageImage' src={Puppeteer} alt='LanguageImage' />
+                                        <p className='LanguageText'>Puppeteer</p>
 
                                     </div>
 

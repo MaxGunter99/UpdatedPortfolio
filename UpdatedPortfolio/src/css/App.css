@@ -1,5 +1,11 @@
+
+
+:root {
+    --primary-color: rgb(90,155,172);
+}
+
 html {
-    background-color: rgb(183,41,37);
+    background-color: var(--primary-color);
 }
 
 #root {
@@ -8,7 +14,6 @@ html {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     width: 100%;
-    /* max-width: 1280px; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -63,11 +68,13 @@ h1.Projects {
     display: flex;
     justify-content: left;
     padding: 10px;
+    font-size: 2rem;
 
 }
 
 .BottomSection h1 {
     text-align: center;
+    font-size: 2rem;
 }
 
 @media only screen 
