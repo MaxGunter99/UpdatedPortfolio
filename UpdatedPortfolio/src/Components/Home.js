@@ -4,7 +4,8 @@ import React, { Suspense } from 'react';
 import WOW from 'wowjs';
 
 // IMAGES
-import Avatar from '../Images/avatar3.jpg';
+// import Avatar from '../Images/avatar1.jpg';
+import Avatar from '../Images/avatar10.PNG';
 
 // CSS IMPORTS
 import "../css/App.css";
@@ -49,7 +50,13 @@ export default class MainPage extends React.Component {
 
                     <div className = 'BioContainer'>
                         <Suspense fallback={ null }>
-                            <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                            <div className = "AvatarContainer">
+                                <div>
+                                    <h1 className = 'FirstName'>Michael</h1>
+                                    <h1 className = "LastName">Gunter</h1>
+                                </div>
+                                <img src={Avatar} className='AvatarImg' alt='AvatarImg' />
+                            </div>
                         </Suspense>
                         <div className='BioContent'>Software Engineer educated by hands-on experience through Lambda School's Full-Stack Web Development track. Strong collaborator, open-minded, motivated, and a fast learner. When grasping a new concept I can hit the ground running with it. Values the intricacy included in the stages of planning and developing projects from the Back-End to the Front-End. Works well in cross-functional teams to achieve the project or task at hand.</div>
 

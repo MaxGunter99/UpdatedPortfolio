@@ -20,10 +20,55 @@
 
     height: 250px;
     width: auto;
-    border-radius: 10px;
     /* border: 5px solid rgb(43,29,40); */
-    margin-bottom: 20px;
+    margin-bottom: -25px;
+    border: 5px solid #ffffff;
+    /* border-radius: 20%; */
+    backdrop-filter: blur( 4px );
 
+
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+
+}
+
+.AvatarContainer {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    overflow: hidden;
+    background-color: rgb(183,41,37);
+    background-color: rgb(209, 209, 209);
+}
+
+.AvatarContainer div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.AvatarContainer h1.FirstName {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 120px;
+}
+
+.AvatarContainer h1.LastName {
+    color: black;
+    /* left: 0; */
+    margin: 0px;
+    text-align: right;
+    font-size: 120px;
 }
 
 .BioContent {
