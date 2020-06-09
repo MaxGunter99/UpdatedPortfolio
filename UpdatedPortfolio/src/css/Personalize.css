@@ -1,13 +1,13 @@
-/* PERSONALIZE */
+/* PERSONALIZE
 
 .Personalize {
 
     display: flex;
     flex-direction: column;
     width: 90%;
+    padding: 10px;
+    margin: 20px;
     margin: 0 auto;
-    margin-top: 100px;
-    /* border-radius: 10px; */
     background-color: rgba(255, 255, 255, 0.123);
     backdrop-filter: blur( 5px );
     text-align: left;
@@ -28,12 +28,9 @@
     color: black;
     font-family: 'Lobster', cursive;
     text-decoration: underline;
-    /* text-decoration-color: red; */
     color: white;
     font-size: 50px;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
 
 }
 
@@ -45,6 +42,8 @@
     margin: 0 auto;
     text-indent: 25px;
     font-size: 1rem;
+    padding: 10px;
+    justify-content: center;
 
 }
 
@@ -52,15 +51,8 @@ img.PersonalizeIMG {
 
     height: auto;
     max-width: 75%;
+    margin: 10px;
 
-}
-
-.PersonalizeContent.two {
-    margin-top: 25px;
-}
-
-img.PersonalizeIMG .Two {
-    margin-top: 20px;
 }
 
 .Personalize p {
@@ -70,7 +62,9 @@ img.PersonalizeIMG .Two {
 }
 
 ul {
+
     width: 80%;
+
 }
 
 ul li {
@@ -80,40 +74,17 @@ ul li {
 
 }
 
+.ButtonContainer {
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+}
+
 .ButtonContainer button {
+
     width: fit-content;
     margin: 10px;
     padding: 10px;
-}
-
-/* MOBILE MEDIA QUERIE */
-@media only screen 
-  and (min-width: 900px)
-  and ( max-width: 5000px ) {
-
-    .Personalize {
-        margin: 0 auto;
-        width: 90%;
-        /* border: none; */
-        padding: 10px;
-        margin-top: 40px;
-        /* border-radius: 10px; */
-    }
-
-    .PersonalizeContent {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    img.PersonalizeIMG .Two {
-        margin-top: 20px;
-    }
-
-    .Info {
-
-        padding: 30px;
-    
-    }
 
 }
 
@@ -122,6 +93,7 @@ ul li {
   and (max-width: 900px) {
 
     .Personalize {
+
         background-color: white;
         width: 90%;
         margin-top: 50px;
@@ -134,10 +106,6 @@ ul li {
         color: black;
         padding-bottom: 20px;
 
-    }
-
-    img.PersonalizeIMG .Two {
-        margin-top: 20px;
     }
 
     .PersonalizeContent {
@@ -162,7 +130,7 @@ ul li {
 
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         text-indent: 25px;
         justify-content: space-evenly;
@@ -172,9 +140,11 @@ ul li {
     }
 
     .Duration {
+
         display: flex;
         width: 100%;
         justify-content: center;
+
     }
 
-}
+} */

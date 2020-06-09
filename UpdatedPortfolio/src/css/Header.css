@@ -21,7 +21,7 @@ h1.Name {
     
 }
 
-.Title {
+.NavButtons {
 
     display: flex;
     justify-content: space-evenly;
@@ -30,10 +30,9 @@ h1.Name {
 
 }
 
-.Title a {
+.NavButtons a {
 
     text-decoration: none;
-    /* border-radius: 10px 10px 0px 0px; */
     padding: 5px 10px;
     transition: .5s;
     color: black;
@@ -43,6 +42,7 @@ h1.Name {
 }
 
 a.active {
+
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     color: white;
@@ -50,7 +50,7 @@ a.active {
 
 }
 
-.Title a:hover {
+.NavButtons a:hover {
 
     cursor: pointer;
 
@@ -64,15 +64,16 @@ a.active {
 
     h1.Name {
 
-        /* padding: 10px; */
         font-size: 25px;
         width: fit-content
     
     }
 
-    .Title a {
+    .NavButtons a {
+
         font-size: 15px;
         margin-bottom: -5px;
+
     }
 
 }

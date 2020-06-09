@@ -4,7 +4,7 @@ import React from 'react';
 import Home from '../../Images/connectourkidshome.jpg';
 import ConnectOurKidsLogo from '../../Images/connectkids.jpg';
 import PeopleSearch from '../../Images/connectkidspeoplesearch.jpg';
-import '../../css/ConnectOurKids.css'
+import '../../css/MobileLayoutTemplate.css'
 
 
 export default class ConnectOurKids extends React.Component {
@@ -27,17 +27,15 @@ export default class ConnectOurKids extends React.Component {
 
         return (
 
-            <div className='ConnectKidsDiv'>
+            <div className='MainDiv'>
 
-                <div className = "ImgContainer">
-                    <img className='ConnectOurKids' src={ConnectOurKidsLogo} alt='ConOurKids' />
-                </div>
+                <img className='Title' src={ConnectOurKidsLogo} alt='ConOurKids' />
 
-                <div className='ConnectOurKidsContent'>
+                <div className='Content'>
 
-                    <div className='ConnectOurKidsImages'>
-                        <img src={Home} className='ConnectOurKidsScreenshot' alt='ConOurKidsScreenshot' />
-                        <img src={PeopleSearch} className='ConnectOurKidsScreenshot one' alt='ConOurKidsScreenshot' />
+                    <div className='Images'>
+                        <img src={Home} className='Screenshot Mobile' alt='ConOurKidsScreenshot' />
+                        <img src={PeopleSearch} className='Screenshot Mobile one' alt='ConOurKidsScreenshot' />
                     </div>
 
                     <div className='Info'>

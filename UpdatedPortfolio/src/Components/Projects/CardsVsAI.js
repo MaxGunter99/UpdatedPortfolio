@@ -3,7 +3,7 @@ import React from 'react';
 // IMAGES
 import CardsVsAIScreenshot from '../../Images/CardsVsAIScreenshot.jpg'
 import CardsVsAIGame from '../../Images/CardsVsAIGame.jpg'
-import '../../css/CardsVsAI.css'
+import '../../css/MobileLayoutTemplate.css'
 
 
 export default class CardsVsAI extends React.Component {
@@ -18,16 +18,16 @@ export default class CardsVsAI extends React.Component {
 
         return (
 
-            <div className='CardsVsAIDiv'>
+            <div className='MainDiv'>
 
-                <h1>Cards vs AI</h1>
+                <h1 className='Title'>Cards vs AI</h1>
 
-                <div className='CardsVsAIContent'>
+                <div className='Content'>
 
-                    <div className='CardsVsAIImages'>
+                    <div className='Images'>
 
-                        <img src={CardsVsAIGame} className='CardsVsAiScreenshot one' alt='CardsVsAiScreenshot' />
-                        <img src={CardsVsAIScreenshot} className='CardsVsAiScreenshot' alt='CardsVsAiScreenshot' />
+                        <img src={CardsVsAIGame} className='Screenshot Mobile one' alt='CardsVsAiScreenshot' />
+                        <img src={CardsVsAIScreenshot} className='Screenshot Mobile' alt='CardsVsAiScreenshot' />
 
                     </div>
 

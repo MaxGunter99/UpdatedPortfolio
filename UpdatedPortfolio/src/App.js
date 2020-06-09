@@ -23,7 +23,7 @@ export default class App extends React.Component {
 
           <h1 className="Name" >M.G.</h1>
 
-          <div className="Title">
+          <div className="NavButtons">
 
             <NavLink exact to='/'>Projects</NavLink>
             <NavLink exact to='/Resume'>Resume</NavLink>

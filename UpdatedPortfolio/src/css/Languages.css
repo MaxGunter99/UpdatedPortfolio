@@ -104,15 +104,15 @@
 
     .Languages {
 
+        margin-top: 50px;
         width: 90%;
         font-size: 1rem;
-        /* flex-direction: column; */
 
     }
 
     .Skills {
         justify-content: center;
-        padding: 10px 0px 10px 0px;
+
     }
 
     .Container {
@@ -130,7 +130,6 @@
 
     .LanguageContainer {
 
-        /* padding: 5px; */
         width: 100%;
         height: fit-content;
 
@@ -146,12 +145,11 @@
 
     .SkillsContainer {
 
-        /* height: fit-content; */
-        margin-bottom: 50px;
         background-size: auto;
-        background-position: center top;
+        background-position: center;
         background-attachment: initial;
         background-repeat: no-repeat;
+        padding-bottom: 50px;
         
     }
 

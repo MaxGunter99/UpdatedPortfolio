@@ -9,7 +9,7 @@
     text-align: center;
     margin: 0 auto;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
     border-bottom: 2px dotted rgb(43,29,40);
@@ -24,8 +24,6 @@
     background-color: rgba(255, 255, 255, 0.288);
     /* border-radius: 20%; */
     backdrop-filter: blur( 4px );
-
-
     display: flex;
     position: absolute;
     left: 0;
@@ -38,36 +36,49 @@
 }
 
 .AvatarContainer {
+
     display: flex;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(209, 209, 209);
     margin-bottom: 10px;
+
+    /* background-image: url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
+    /* background-position: center; */
+    /* background-size: 1280px; */
+
+    background-color: rgb(209, 209, 209);
+
 }
 
 .AvatarContainer div {
+
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
+
 }
 
 .AvatarContainer h1 {
+
     font-size: 120px;
     margin: 0px;
     padding: 0px;
+
 }
 
 .AvatarContainer h1.FirstName {
+
     color: white;
     text-align: left;
-    /* font-family: 'Firo', 'mono'; */
+
 }
 
 .AvatarContainer h1.LastName {
+
     color: black;
     text-align: right;
-    /* font-family: 'Firo', 'mono'; */
+
 }
 
 .BioContent {
@@ -84,9 +95,11 @@
 }
 
 .Description {
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 /* MOBILE MEDIA QUERIE */
@@ -96,10 +109,10 @@
   and (max-width: 812px) {
 
     .BioContainer {
+
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding-bo */
 
     }
 
