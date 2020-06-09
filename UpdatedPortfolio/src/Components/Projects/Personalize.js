@@ -2,7 +2,7 @@ import React from 'react';
 
 // IMAGES
 import PersonalizeImg from '../../Images/Personalize.jpg';
-import '../../css/Personalize.css'
+import '../../css/ProjectLayoutTemplate.css'
 
 export default class Personalize extends React.Component {
 

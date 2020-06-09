@@ -184,13 +184,7 @@ export default class MainPage extends React.Component {
 
                         <Suspense fallback={<div>Loading...</div>}>
                             <Personalize />
-                        </Suspense>
-
-                        <Suspense fallback={<div>Loading...</div>}>
                             <CardsVsAI/>
-                        </Suspense>
-
-                        <Suspense fallback={<div>Loading...</div>}>
                             <ConnectOurKids />
                         </Suspense>
 

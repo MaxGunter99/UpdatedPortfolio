@@ -54,6 +54,7 @@ img.Screenshot.Mobile {
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    image-rendering: crisp-edges;
 
 }
 
@@ -62,6 +63,7 @@ img.Screenshot.Web {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    image-rendering: crisp-edges;
 
 }
 

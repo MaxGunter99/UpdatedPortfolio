@@ -4,7 +4,7 @@ import React from 'react';
 import Home from '../../Images/connectourkidshome.jpg';
 import ConnectOurKidsLogo from '../../Images/connectkids.jpg';
 import PeopleSearch from '../../Images/connectkidspeoplesearch.jpg';
-import '../../css/MobileLayoutTemplate.css'
+import '../../css/ProjectLayoutTemplate.css'
 
 
 export default class ConnectOurKids extends React.Component {
