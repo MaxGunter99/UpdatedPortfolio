@@ -183,15 +183,15 @@ export default class MainPage extends React.Component {
                         <h1 className='Projects'>Recent works</h1>
 
                         <Suspense fallback={<div>Loading...</div>}>
-                            <ConnectOurKids />
-                        </Suspense>
-
-                        <Suspense fallback={<div>Loading...</div>}>
                             <Personalize />
                         </Suspense>
-
+                        
                         <Suspense fallback={<div>Loading...</div>}>
                             <CardsVsAI/>
+                        </Suspense>
+
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <ConnectOurKids />
                         </Suspense>
 
                     </div>

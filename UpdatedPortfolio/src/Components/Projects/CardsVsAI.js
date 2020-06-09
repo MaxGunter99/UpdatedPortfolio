@@ -2,7 +2,7 @@ import React from 'react';
 
 // IMAGES
 import CardsVsAIScreenshot from '../../Images/CardsVsAIScreenshot.jpg'
-import CardsVsAILoad from '../../Images/CardsVsAILoad.jpg'
+import CardsVsAIGame from '../../Images/CardsVsAIGame.jpg'
 import '../../css/CardsVsAI.css'
 
 
@@ -26,16 +26,14 @@ export default class CardsVsAI extends React.Component {
 
                     <div className='CardsVsAIImages'>
 
-                        <div className='CardsVsAiScreenshotTwo one'>
-                            <img src = { CardsVsAILoad } className='CardsVsAiTwo' alt='CardsVsAiScreenshot' />
-                        </div>
-
+                        <img src={CardsVsAIGame} className='CardsVsAiScreenshot one' alt='CardsVsAiScreenshot' />
                         <img src={CardsVsAIScreenshot} className='CardsVsAiScreenshot' alt='CardsVsAiScreenshot' />
 
                     </div>
 
                     <div className='Info'>
 
+                        <strong className = "Duration"><p>March 2020 - April 2020</p></strong>
                         <p class="Card">Enables users to play a traditional card game called Egyptian Rat Screw on a mobile device. User has the ability to play against 1-9 artificial intelligence players and put their card game skills up to the test. The user can swipe up on their deck to add a card to the pile or tap on the deck if they see a slappable combination of cards.</p>
 
                         <ul>

@@ -111,10 +111,16 @@ ul li {
     
     }
 
+    .ConnectOurKidsImages {
+        
+        width: 80%;
+    
+    }
+
     .ConnectOurKidsContent {
 
         display: flex;
-        width: 100%;
+        /* width: 20%; */
         justify-content: space-between;
         flex-direction: row;
         margin: 0 auto;

@@ -24,11 +24,11 @@
 
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     margin: 0 auto;
     text-indent: 25px;
-    /* height: fit-content; */
+    height: fit-content;
 
 }
 
@@ -40,33 +40,11 @@
 
 }
 
-img.CardsVsAiScreenshot {
+.CardsVsAiScreenshot {
     width: 231px;
     height: 500px;
-    margin: 0 auto;
     border: 4px solid rgb(145, 145, 145);
     border-radius: 30px;
-    margin-bottom: 20px;  
-}
-
-.CardsVsAiTwo {
-    margin: 0 auto;
-    width: 70%;
-}
-
-.CardsVsAiScreenshotTwo {
-
-    display: flex;
-    background-color: rgb(232,232,232);
-    align-items: center;
-    justify-content: center;
-    width: 231px;
-    height: 500px;
-    margin: 0 auto;
-    border: 4px solid rgb(145, 145, 145);
-    border-radius: 30px;
-    margin-bottom: 20px; 
-    overflow: hidden; 
 }
 
 .Info {
@@ -101,22 +79,32 @@ ul li {
 
         margin: 0 auto;
         width: 90%;
-        margin-top: 40px;
         padding: 10px;
+        margin-top: 40px;
         /* border-radius: 10px; */
+    
+    }
+
+    .CardsVsAIImages {
+
+        width: 80%;
     
     }
 
     .CardsVsAIContent {
 
         display: flex;
-        width: 100%;
+        /* width: 100%; */
         justify-content: space-between;
         flex-direction: row;
         margin: 0 auto;
         text-indent: 25px;
         height: fit-content;
     
+    }
+
+    .CardsVsAiScreenshot {
+        height: 500px;
     }
 
     .Info {
@@ -150,7 +138,7 @@ ul li {
         height: auto;
         display: flex;
         justify-content: center;
-        margin: 0 auto;
+        /* margin: 0 auto; */
 
     }
 
@@ -171,6 +159,15 @@ ul li {
         justify-content: space-evenly;
         width: auto;
         height: 100%;
+
+    }
+
+    img.CardsVsAiScreenshot {
+
+        width: 272px;
+        height: 600px;
+        margin: 0 auto;
+        margin-bottom: 20px;
 
     }
 
