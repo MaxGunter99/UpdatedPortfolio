@@ -73,11 +73,15 @@ ul li {
     text-align: left;
 }
 
+.ButtonContainer {
+    flex-wrap: wrap;
+}
+
 .ButtonContainer button {
-    width: fit-content;
+    /* width: fit-content; */
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 125px;
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -112,7 +116,7 @@ ul li {
     }
 
     .ConnectOurKidsImages {
-        
+
         width: 80%;
     
     }
