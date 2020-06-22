@@ -24,7 +24,7 @@ export default class Personalize extends React.Component {
 
             <div className='MainDiv'>
 
-                <h1 className = "Title">Personalize</h1>
+                <h1 className='Title' >Personalize</h1>
 
                 <div className = 'Content'>
 
@@ -34,7 +34,7 @@ export default class Personalize extends React.Component {
 
                     <div className = 'Info'>
 
-                        <strong className = "Duration"><p>January 2020 - Current</p></strong>
+                        <strong className = "Duration"><p>January 2020 - June 2020</p></strong>
                         <p>Job tracking application that motivates users to continue applying through statistical information and tips.</p>
                             
                         <ul>

@@ -2,7 +2,6 @@ import React from 'react';
 
 // IMAGES
 import Home from '../../Images/connectourkidshome.jpg';
-import ConnectOurKidsLogo from '../../Images/connectkids.jpg';
 import PeopleSearch from '../../Images/connectkidspeoplesearch.jpg';
 import '../../css/ProjectLayoutTemplate.css'
 
@@ -29,7 +28,8 @@ export default class ConnectOurKids extends React.Component {
 
             <div className='MainDiv'>
 
-                <img className='Title' src={ConnectOurKidsLogo} alt='ConOurKids' />
+                <h1 className='Title' >Connect Our Kids</h1>
+                {/* <img src={ConnectOurKidsLogo} className='Title' alt='ConOurKidsLogo' /> */}
 
                 <div className='Content'>
 

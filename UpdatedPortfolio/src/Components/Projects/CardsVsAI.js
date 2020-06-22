@@ -20,7 +20,7 @@ export default class CardsVsAI extends React.Component {
 
             <div className='MainDiv'>
 
-                <h1 className='Title'>Cards vs AI</h1>
+                <h1 className='Title' >Cards vs AI</h1>
 
                 <div className='Content'>
 

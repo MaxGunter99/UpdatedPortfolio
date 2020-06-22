@@ -2,7 +2,6 @@
 import React, { Component, Suspense } from 'react'
 
 // CSS
-import '../css/App.css'
 import '../css/Resume.css'
 import WOW from 'wowjs';
 

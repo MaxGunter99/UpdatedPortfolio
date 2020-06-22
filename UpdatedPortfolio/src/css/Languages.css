@@ -3,13 +3,7 @@
 
     /* background-image: url('https://images.unsplash.com/photo-1457419655743-2e0acc6b5122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
     /* background-image: url('https://images.unsplash.com/photo-1535990379313-5cd271a2da2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80'); */
-
-    /* background-image: url('https://images.wallpaperscraft.com/image/pattern_embossed_geometric_130686_1920x1080.jpg'); */
-    /* background-image: url('https://images.unsplash.com/photo-1591226344778-a1153a71f5b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'); */
-    /* background-image: url('https://images.unsplash.com/photo-1504537103742-67c282f65f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80'); */
-    /* background-image: url('https://images.unsplash.com/photo-1479859546309-cd77fa21c8f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'); */
     background-image: url('https://images.unsplash.com/photo-1535983200711-7264de3b9059?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1066&q=80');
-    /* background-color: rgb(213,50,45); */
     background-size: 1280px;
     background-position: center center;
     padding-bottom: 100px;
@@ -26,13 +20,11 @@
     width: 90%;
     padding: 10px;
     margin-top: 100px;
-    /* margin-bottom: 100px; */
     height: auto;
     align-items: baseline;
     background-color: rgba(209, 209, 209, 0.493);
     backdrop-filter: blur( 5px );
     text-align: center;
-    /* border-radius: 10px; */
 
 }
 
@@ -52,7 +44,6 @@
     margin-bottom: 30px;
     width: auto;
     padding-left: 10px;
-    /* border-radius: 0px 0px 10px 10px; */
 
 }
 
@@ -74,9 +65,7 @@
     margin: 0 auto;
     margin-bottom: 10px;
     align-items: center;
-    /* padding: 5px; */
     background-color: rgba(255, 255, 255, 0.719);
-    /* border-radius: 5px; */
 
 }
 
@@ -99,45 +88,54 @@
 }
 
 @media only screen 
-  and (min-width: 300px) 
-  and (max-width: 812px) {
+  and (min-width: 0px) 
+  and (max-width: 900px) {
 
     .Languages {
 
         margin-top: 50px;
-        width: 90%;
+        width: 100%;
         font-size: 1rem;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        backdrop-filter: none;
 
     }
 
     .Skills {
+
         justify-content: center;
+        padding-left: 0px;
 
     }
 
     .Container {
 
         padding: 0px;
-        width: 25%;
+        width: 30%;
 
     }
 
     .Topics {
 
-        font-size: 18px;
+        font-size: 1rem;
 
     }
 
     .LanguageContainer {
 
         width: 100%;
-        height: fit-content;
+        /* flex-direction: column; */
+        height: 100%;
+        /* padding: 5px; */
+        /* min-height: 150px; */
 
     }
 
     .LanguageContainer img {
 
-        width: 20%;
+        width: 100%;
         height: auto;
         display: none;
 
@@ -145,10 +143,11 @@
 
     .SkillsContainer {
 
-        background-size: auto;
-        background-position: center;
+        background-color: var(--primary-color);
+        /* background-image: url('https://images.unsplash.com/photo-1551026921-6113d5b0d46d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80');
         background-attachment: initial;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; */
         padding-bottom: 50px;
         
     }
