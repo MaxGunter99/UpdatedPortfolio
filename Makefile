@@ -1,10 +1,8 @@
 
 start:
-	cd UpdatedPortfolio/
 	yarn && yarn start
 
-test-build:
-	cd UpdatedPortfolio/
+build:
 	yarn run build
 
 install-heroku:
