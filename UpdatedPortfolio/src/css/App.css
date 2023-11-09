@@ -1,0 +1,39 @@
+
+
+:root {
+
+    --primary-color: rgb(216,61,46);
+
+}
+
+html {
+
+    background-color: var(--primary-color);
+
+}
+
+#root {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+    margin: 0 auto;
+    /* width: 90%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.AppWrapper {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(20px + 2vmin); */
+    width: 100%;
+    max-width: 1280px;
+
+}
