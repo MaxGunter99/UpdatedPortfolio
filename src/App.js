@@ -1,6 +1,6 @@
 // DEP
 import React from 'react';
-import { Route, NavLink } from 'react-router-dom';
+import { Route, NavLink, Redirect, Switch } from 'react-router-dom';
 
 // CSS
 import "./css/App.css";
@@ -11,6 +11,7 @@ import './css/Footer.css'
 import MainPage from './Components/Home';
 import ResumePage from './Components/Resume';
 import Footer from './Components/Footer';
+import PageNotFound from './Components/PageNotFound'
 
 export default class App extends React.Component {
 
@@ -32,8 +33,14 @@ export default class App extends React.Component {
 
         </div>
 
-        <Route exact path='/' component={MainPage} />
-        <Route exact path='/Resume' component={ResumePage} />
+        <Switch>
+
+          <Route exact path='/' component={MainPage} />
+          <Route exact path='/Resume' component={ResumePage} />
+          <Route path='/404' component={PageNotFound} />
+          <Redirect from='*' to='/404' />
+        </Switch>
+
 
         <Footer/>
 

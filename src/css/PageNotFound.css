@@ -1,0 +1,15 @@
+
+
+.PageNotFound {
+    height: calc(100vh - 45px); /* Adjust the value based on the height of your header and footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ORIGINAL DIMENSIONS ARE 512px */
+.PageNotFoundImage {
+    width: 256px; 
+    height: auto;
+}
