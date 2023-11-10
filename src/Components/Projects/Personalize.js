@@ -41,9 +41,9 @@ export default class Personalize extends React.Component {
                             <li>Keeps track of all the jobs a user applies to</li>
                             <li>Visual activity graph based on how many jobs the user applies to per week</li>
                             <li>Node backend used to store all the users data</li>
-                            <li>Puppeteer web scraper</li>
-                            <li>Using the parameters a user sets, an advanced search takes place to scout out jobs a user might want to apply to.</li>
+                            <li>Implemented a custom search web scraper for job recommendations from users' favorite job boards.</li>
                             <li>If the user wants to apply to a listed job, all of the necessary information is already provided for easy addition to their database.</li>
+                            <li>Created a visual activity graph based on how many jobs the user applies.</li>
                         </ul>
 
                         <div className = "ButtonContainer">

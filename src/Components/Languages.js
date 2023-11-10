@@ -15,7 +15,17 @@ import Jest from '../Images/jest.png';
 import REST from '../Images/restAPI.png';
 import Express from '../Images/expresslogo.png';
 import Puppeteer from '../Images/puppeteer.png';
-import Twilio from '../Images/twilio.png';
+import Golang from '../Images/Golang.png';
+import GoogleCloud from '../Images/GoogleCloud.png';
+import BigQuery from '../Images/BigQuery.png';
+import DataStudio from '../Images/DataStudio.png';
+import SQL from '../Images/SQL.png';
+import AskingQuestions from '../Images/AskingQuestions.png';
+import ProblemSolving from '../Images/ProblemSolving.png';
+import Collaboration from '../Images/Collaboration.png';
+import Notion from '../Images/Notion.png';
+import BulletJournaling from '../Images/BulletJournaling.png';
+import VisualizingProcesses from '../Images/VisualizingProcesses.png';
 
 export default class Languages extends React.Component {
 
@@ -28,21 +38,113 @@ export default class Languages extends React.Component {
 
                 <div className='Languages'>
 
-                    {/* FRONT END */}
+                    {/* TECHNICAL SKILLS */}
                     
                     <div className='Container'>
 
-                        <h2 className='Topics'>Front-End</h2>
+                        <h2 className='Topics'>Technical Skills</h2>
 
                         <div className='LanguageContainer'>
-                            <img className='LanguageImage' src={ html } alt='LanguageImage' />
-                            <p className='LanguageText'>HTML5</p>
+
+                            <img className='LanguageImage' src={ Python } alt='LanguageImage' />
+                            <p className='LanguageText'>Python3</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ GoogleCloud } alt='LanguageImage' />
+                            <p className='LanguageText'>Google Cloud</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ DataStudio } alt='LanguageImage' />
+                            <p className='LanguageText'>Data Studio</p>
+
                         </div>
 
                         <div className='LanguageContainer'>
 
                             <img className='LanguageImage' src={ Javascript } alt='LanguageImage' />
                             <p className='LanguageText'>Javascript</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ SQL } alt='LanguageImage' />
+                            <p className='LanguageText'>SQL</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ BigQuery } alt='LanguageImage' />
+                            <p className='LanguageText'>BigQuery</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ Golang } alt='LanguageImage' />
+                            <p className='LanguageText'>Golang</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ html } alt='LanguageImage' />
+                            <p className='LanguageText'>HTML5</p>
+
+                        </div>
+
+                    </div>
+
+                    {/* FRAMEWORKS & LIBRARIES */}
+
+                    <div className='Container'>
+
+                        <h2 className='Topics'>Frameworks & Libraries</h2>
+
+                        <div className='LanguageContainer'>
+                            <img className='LanguageImage' src={ Django } alt='LanguageImage' />
+                            <p className='LanguageText'>Django</p>
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ REST } alt='LanguageImage' />
+                            <p className='LanguageText'>REST</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ NodeImg } alt='LanguageImage' />
+                            <p className='LanguageText'>Node</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ Express } alt='LanguageImage' />
+                            <p className='LanguageText'>Express</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ Jest } alt='LanguageImage' />
+                            <p className='LanguageText'>Jest</p>
+
+                        </div>
+
+                        <div className='LanguageContainer'>
+
+                            <img className='LanguageImage' src={ Puppeteer } alt='LanguageImage' />
+                            <p className='LanguageText'>Puppeteer</p>
 
                         </div>
 
@@ -69,73 +171,49 @@ export default class Languages extends React.Component {
 
                     </div>
 
-                    {/* BACK END */}
+                    {/* SOFT SKILLS */}
 
                     <div className='Container'>
 
-                        <h2 className='Topics'>Back-End</h2>
+                        <h2 className='Topics'>Soft Skills</h2>
 
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ NodeImg } alt='LanguageImage' />
-                            <p className='LanguageText'>Node</p>
+                            <img className='LanguageImage' src={ AskingQuestions } alt='LanguageImage' />
+                            <p className='LanguageText'>Asking Question</p>
 
                         </div>
 
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ Express } alt='LanguageImage' />
-                            <p className='LanguageText'>Express</p>
+                            <img className='LanguageImage' src={ Collaboration } alt='LanguageImage' />
+                            <p className='LanguageText'>Collaboration</p>
 
                         </div>
 
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ Jest } alt='LanguageImage' />
-                            <p className='LanguageText'>Jest</p>
+                            <img className='LanguageImage' src={ ProblemSolving } alt='LanguageImage' />
+                            <p className='LanguageText'>Problem Solving</p>
 
                         </div>
 
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ REST } alt='LanguageImage' />
-                            <p className='LanguageText'>REST APIs</p>
+                            <img className='LanguageImage' src={ Notion } alt='LanguageImage' />
+                            <p className='LanguageText'>Notion</p>
 
                         </div>
-
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ Puppeteer } alt='LanguageImage' />
-                            <p className='LanguageText'>Puppeteer</p>
+                            <img className='LanguageImage' src={ BulletJournaling } alt='LanguageImage' />
+                            <p className='LanguageText'>Bullet Journaling</p>
 
                         </div>
-
                         <div className='LanguageContainer'>
 
-                            <img className='LanguageImage' src={ Twilio } alt='LanguageImage' />
-                            <p className='LanguageText'>Twilio</p>
-
-                        </div>
-
-                    </div>
-
-                    {/* COMPUTER SCIENCE */}
-
-                    <div className='Container'>
-
-                        <h2 className='Topics'>CS</h2>
-
-                        <div className='LanguageContainer'>
-
-                            <img className='LanguageImage' src={ Python } alt='LanguageImage' />
-                            <p className='LanguageText'>Python3</p>
-
-                        </div>
-
-                        <div className='LanguageContainer'>
-
-                            <img className='LanguageImage' src={ Django } alt='LanguageImage' />
-                            <p className='LanguageText'>Django</p>
+                            <img className='LanguageImage' src={ VisualizingProcesses } alt='LanguageImage' />
+                            <p className='LanguageText'>Visualizing Processes</p>
 
                         </div>
 
