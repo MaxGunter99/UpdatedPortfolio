@@ -7,7 +7,8 @@ import WOW from 'wowjs';
 
 // IMAGES
 // import Resume from '../Images/resume.jpeg'
-import Resume from '../Images/Resume - 2.7.jpg'
+// import Resume from '../Images/Resume - 2.7.jpg'
+import Resume from '../Images/Resume - 2.8.jpg'
 // import Resume from '../Images/Resume - 2.6.jpg'
 
 class ResumePage extends Component {
