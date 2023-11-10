@@ -47,7 +47,7 @@ export default class Footer extends Component {
                 <div>
                     <h2><strong>Michael Gunter</strong></h2>
                     <p><strong>Full-Stack Web Developer</strong></p>
-                    <p>Lambda School</p>
+                    <p>Bloom Institute of Technology (Lambda)</p>
                     {/* <p>Austin, TX</p> */}
                 </div>
 
