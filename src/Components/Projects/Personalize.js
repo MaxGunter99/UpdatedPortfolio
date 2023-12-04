@@ -1,21 +1,18 @@
 import React from 'react';
 
 // IMAGES
-import PersonalizeImg from '../../Images/Personalize.jpg';
+// import PersonalizeImg from '../../Images/Personalize.jpg';
+import PersonalizeImg from '../../Images/Personalize2.png';
 import '../../css/ProjectLayoutTemplate.css'
 
 export default class Personalize extends React.Component {
 
     toGitHubFrontEnd = () => {
-
         window.location = 'https://github.com/MaxGunter99/Personalize-FrontEnd'
-
     }
 
     toGitHubBackEnd = () => {
-
         window.location = 'https://github.com/MaxGunter99/Personalize-FrontEnd'
-
     }
 
     render() {
