@@ -118,11 +118,12 @@ img.Screenshot.Web {
 
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    /* width: fit-content; */
     margin: 10px;
     text-indent: 25px;
     font-size: 1rem;
     padding: 10px;
+    min-width: 80%;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.151);
 

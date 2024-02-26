@@ -7,15 +7,9 @@ import RubiksCubeImg from '../../Images/rubikscube.PNG';
 
 export default class RubiksCube extends React.Component {
 
-    toGitHubFrontEnd = () => {
+    toGitHub = () => {
 
-        window.location = 'https://github.com/MaxGunter99/Personalize-FrontEnd'
-
-    }
-
-    toGitHubBackEnd = () => {
-
-        window.location = 'https://github.com/MaxGunter99/Personalize-FrontEnd'
+        window.location = 'https://github.com/MaxGunter99/digital_rubiks_cube'
 
     }
 
@@ -35,7 +29,7 @@ export default class RubiksCube extends React.Component {
 
                     <div className = 'Info'>
 
-                        <strong className = "Duration"><p>June 2023 - Current</p></strong>
+                        <strong className = "Duration"><p>January 2024 - Current</p></strong>
                         <p>Constructing a digital Rubics cube</p>
                             
                         <ul>
@@ -46,8 +40,7 @@ export default class RubiksCube extends React.Component {
 
                         <div className = "ButtonContainer">
 
-                            {/* <button className = 'GitHub' onClick = { () => this.toGitHubFrontEnd() }>Front-End</button>
-                            <button className = 'GitHub' onClick = { () => this.toGitHubBackEnd() }>Back-End</button> */}
+                            <button className = 'GitHub' onClick = { () => this.toGitHub() }>GitHub</button>
 
                         </div>
 

@@ -35,13 +35,13 @@ export default class SpotifyWebScraper extends React.Component {
 
                     <div className = 'Info'>
 
-                        <strong className = "Duration"><p>April 2021 - Current</p></strong>
+                        <strong className = "Duration"><p>April 2021 - October 2023</p></strong>
                         <p>Continuously enhancing and experimenting with web scraping</p>
                             
                         <ul>
                             <li>Generates playlists for a collection of artists</li>
                             <li>Appends the top 5 songs from any artist into a specified playlist</li>
-                            <li>Experiments extracting string values from images using an optical character recognition python library</li>
+                            <li>Experimented extracting string values from images using an optical character recognition python library</li>
                         </ul>
 
                         <div className = "ButtonContainer">
