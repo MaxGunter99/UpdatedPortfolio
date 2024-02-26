@@ -25,7 +25,7 @@ class ResumePage extends Component {
 
             <Suspense fallback={<div>Loading...</div>}>
                 <div className="wow fadeIn" data-wow-duration=".3s">
-                    <iframe src={Resume} className='ResumeIframe'/>
+                    <iframe src={Resume} className='ResumeIframe' title="Michael Gunter Resume"/>
                 </div>
             </Suspense>
 
