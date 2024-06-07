@@ -42,7 +42,10 @@ export default class Languages extends React.Component {
                     
                     <div className='Container'>
 
-                        <h2 className='Topics'>Technical Skills</h2>
+                        <div className="TopicsContainer">
+                            <h2 className='Topics'>Technical Skills</h2>
+                        </div>
+
 
                         <div className='LanguageContainer'>
 
@@ -106,7 +109,9 @@ export default class Languages extends React.Component {
 
                     <div className='Container'>
 
-                        <h2 className='Topics'>Frameworks & Libraries</h2>
+                        <div className="TopicsContainer">
+                            <h2 className='Topics'>Frameworks & Libraries</h2>
+                        </div>
 
                         <div className='LanguageContainer'>
                             <img className='LanguageImage' src={ Django } alt='LanguageImage' />
@@ -175,7 +180,9 @@ export default class Languages extends React.Component {
 
                     <div className='Container'>
 
-                        <h2 className='Topics'>Soft Skills</h2>
+                        <div className="TopicsContainer">
+                            <h2 className='Topics'>Soft Skills</h2>
+                        </div>
 
                         <div className='LanguageContainer'>
 

@@ -28,8 +28,18 @@
 
 }
 
-.Topics {
+.TopicsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 75%;
+}
 
+.Topics {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
 
@@ -43,7 +53,7 @@
     margin: 0 auto;
     margin-bottom: 30px;
     width: auto;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 }
 
@@ -52,9 +62,10 @@
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
 
 }
 
@@ -94,12 +105,14 @@
     .Languages {
 
         margin-top: 50px;
-        width: 100%;
+        /* width: 100%; */
         font-size: 1rem;
         padding: 0px;
         display: flex;
+        align-items: flex-start;
         flex-wrap: wrap;
         backdrop-filter: none;
+        background-color: rgba(209, 209, 209, 0);
 
     }
 
@@ -113,23 +126,20 @@
     .Container {
 
         padding: 0px;
-        width: 30%;
+        width: 90%;
+        background-color: rgba(209, 209, 209, 0.493);
+        backdrop-filter: blur( 5px );
+        margin-bottom: 50px;
 
     }
 
-    .Topics {
-
+    /* .Topics {
         font-size: 1rem;
-
-    }
+    } */
 
     .LanguageContainer {
 
-        width: 100%;
-        /* flex-direction: column; */
         height: 100%;
-        /* padding: 5px; */
-        /* min-height: 150px; */
 
     }
 
