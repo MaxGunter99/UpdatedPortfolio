@@ -24,7 +24,7 @@ export default class RubiksCube extends React.Component {
 
                 <div className = 'Content'>
 
-                    <div className='Images RubiksCubeIMG'>
+                    <div className='Images'>
                         <img src={ RubiksCubeImg } alt='RubiksCubeIMG' className='Screenshot Web' />
                     </div>
 
@@ -45,7 +45,7 @@ export default class RubiksCube extends React.Component {
                             <pre className="codeExampleContent">
                                 <code>
                                     cube_client = RubiksCube()<br/>
-                                    cube_client.shuffle_cube(random_turns_count=100)<br/>
+                                    cube_client.shuffle_cube( 100 )<br/>
                                     steps_to_solve = cube_client.solve_cube()
                                 </code>
                             </pre>

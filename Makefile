@@ -24,5 +24,8 @@ push-heroku:
 update-heroku:
 	heroku update
 
+logs-heroku:
+	heroku logs --tail
+
 login-heroku:
 	heroku login

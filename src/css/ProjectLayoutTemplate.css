@@ -74,12 +74,12 @@ h1.Projects {
 .Content {
 
     display: flex;
+    flex-wrap: wrap;
     width: fit-content;
     justify-content: space-evenly;
     margin: 0 auto;
     text-indent: 25px;
     height: fit-content;
-    flex-wrap: wrap;
     text-align: left;
 
 }
@@ -89,7 +89,8 @@ h1.Projects {
     display: flex;
     justify-content: space-evenly;
     width: fit-content;
-    max-width: 90%;
+    /* max-width: 90%; */
+    /* max-width: 80%; */
 
 }
 
@@ -170,23 +171,28 @@ ul li {
 
 }
 
-.RubiksCubeIMG {
-    width: 500px;
-    height: auto;
-}
+
 
 .codeExample {
+    display: flex;
+    align-self: center;
     background-color: rgb(56,0,0);
     padding: 10px;
     /* border-radius: 20px; */
-    width: fit-content;
     margin: 0 auto;
+    /* width: 100%; */
+    width: calc(100% - 20px);
 }
 
 .codeExampleContent {
+    display: flex;
     color: white;
     text-indent: 0px;
     font-size: 1rem;
+    /* white-space: pre-wrap; */
+    /* width: 100%; */
+    text-wrap: wrap;
+    /* word-break: break-word; */
 
 }
 
@@ -232,6 +238,7 @@ ul li {
         /* padding: 10px; */
         text-indent: 25px;
         justify-content: center;
+        width: 100%;
     
     }
 
@@ -309,10 +316,8 @@ ul li {
         border: 2px solid black;
     
     }
-
-    .RubiksCubeIMG {
-        width: 100%;
-        height: auto;
+    .codeExample {
+        margin-bottom: 20px;
     }
 
 }
