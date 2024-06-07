@@ -20,3 +20,6 @@ add-domain:
 # AUTOMATIC DEPLOYS SETUP
 push-heroku:
 	git push heroku master
+
+update-heroku:
+	heroku update
