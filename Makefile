@@ -23,3 +23,6 @@ push-heroku:
 
 update-heroku:
 	heroku update
+
+login-heroku:
+	heroku login
