@@ -3,7 +3,8 @@ import React from 'react';
 import '../../css/ProjectLayoutTemplate.css'
 
 // IMAGES
-import RubiksCubeImg from '../../Images/rubikscube.PNG';
+// import RubiksCubeImg from '../../Images/rubikscube.PNG';
+import RubiksCubeImg from '../../Images/rubikscube1.PNG';
 
 export default class RubiksCube extends React.Component {
 
@@ -23,20 +24,32 @@ export default class RubiksCube extends React.Component {
 
                 <div className = 'Content'>
 
-                    <div className='Images'>
+                    <div className='Images RubiksCubeIMG'>
                         <img src={ RubiksCubeImg } alt='RubiksCubeIMG' className='Screenshot Web' />
                     </div>
 
                     <div className = 'Info'>
 
-                        <strong className = "Duration"><p>January 2024 - Current</p></strong>
-                        <p>Constructing a digital Rubics cube</p>
+                        <strong className = "Duration"><p>January 2024 - May 2024</p></strong>
+                        <p>Constructed a digital Rubics cube</p>
                             
                         <ul>
-                            <li>Constructing a mutable digital rubiks cube in python</li>
-                            <li>Developing algorithm to solve cube</li>
-                            <li>Writing tests to ensure mutated cube data is valid</li>
+                            <li>Constructed a mutable digital rubiks cube in python</li>
+                            <li>Developed an algorithm to solve cube</li>
+                            <li>Can randomly shuffle cube 100 times and solve it within 0.3 seconds</li>
+                            <li>Test driven development to ensure mutated cube data is valid</li>
                         </ul>
+
+                        <p className="codeExampleTitle"> <strong>Example Usage:</strong></p>
+                        <div className="codeExample">
+                            <pre className="codeExampleContent">
+                                <code>
+                                    cube_client = RubiksCube()<br/>
+                                    cube_client.shuffle_cube(random_turns_count=100)<br/>
+                                    steps_to_solve = cube_client.solve_cube()
+                                </code>
+                            </pre>
+                        </div>
 
                         <div className = "ButtonContainer">
 
