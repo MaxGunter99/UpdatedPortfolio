@@ -1,6 +1,6 @@
 
 start:
-	yarn && yarn start
+	yarn && yarn dev
 
 build:
 	yarn run build
