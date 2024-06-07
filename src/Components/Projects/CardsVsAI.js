@@ -39,7 +39,7 @@ export default class CardsVsComputers extends React.Component {
                         <ul>
                             <li>Solo project</li>
                             <li>Built in React Native</li>
-                            <li>Algrorithms constructed in JavaScript</li>
+                            <li>Algorithms constructed in JavaScript</li>
                             <li>Runs on Expo</li>
                         </ul>
 
