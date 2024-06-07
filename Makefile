@@ -29,3 +29,9 @@ logs-heroku:
 
 login-heroku:
 	heroku login
+
+deactivate-portfolio-heroku:
+	heroku ps:scale web=0
+
+activate-portfolio-heroku:
+	heroku ps:scale web=1
